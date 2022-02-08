@@ -22,7 +22,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 双击alias.bat运行，重启cmd。
 - 此时在终端输入httpcode，即可返回文件内容。
 
-![image-20220208090022459](D:\Git\Awesome-Redteam\images\image-20220208090022459.png)
+![image-20220208090022459](./images/image-20220208090022459.png)
 
 > 解决cmd中文乱码的问题：
 >
@@ -34,5 +34,5 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 安装插件`Markdown Viewer`。
 - 配合Bootstrap可以实现快速部署导航页或文档库。
 
-![image-20220208091030741](D:\Git\Awesome-Redteam\images\image-20220208091030741.png)
+![image-20220208091030741](./images/image-20220208091030741.png)
 
