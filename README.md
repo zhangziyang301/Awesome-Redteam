@@ -3,7 +3,43 @@
 
 markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
-## 快速导航
+## 目录概览
+
+**网站导航**
+
+- 编码转换
+- 实用工具
+- IP/域名收集
+  - 确认真实IP地址
+  - 多个地点Ping服务器
+  - Whois注册信息反查
+  - DNS数据聚合查询
+  - IP地址段收集
+- 网络空间搜索
+- 威胁情报平台
+- CTF平台
+- 漏洞平台
+
+**漏洞研究**
+
+- 漏洞综述
+- 漏洞挖掘
+- 开源项目
+- 漏洞EXP
+
+**内网渗透**
+
+- 命令行
+- Bypass
+- Payload
+
+**工具赋能**
+
+- Cobaltstrike
+- Burpsuite
+- Chrome crx
+
+## 网站导航
 
 ### 编码转换
 
@@ -68,7 +104,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 谛听：https://www.ditecting.com/
 - 360网络空间测绘：https://quake.360.cn/quake/#/index
 
-### 威胁情报
+### 威胁情报平台
 
 - Virustotal：https://www.virustotal.com/gui/home/upload
 - 腾讯哈勃分析系统：https://habo.qq.com/tool/index
@@ -103,18 +139,35 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - dirsearch：https://github.com/maurosoria/dirsearch
 - Fofa Viewer：https://github.com/wgpsec/fofa_viewer
 
-### 开源项目
+### 漏洞研究
 
-#### 基础知识
+#### 漏洞综述
 
-- The art of command line：https://github.com/jlevy/the-art-of-command-line
+- 未授权访问漏洞总结：http://luckyzmj.cn/posts/15dff4d3.html#toc-heading-3
 
-#### 漏洞整理POC/EXP
+#### 漏洞挖掘
+
+- Windows-Exploit-Suggester：https://github.com/AonCyberLabs/Windows-Exploit-Suggester
+- Linux_Exploit_Suggester：https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
+
+#### 开源项目
+
+- Vulhub：https://vulhub.org/
+- PeiQi文库：http://wiki.peiqi.tech/
 
 - PoCBox：https://github.com/0verSp4ce/PoCBox
 - Vulnerability：https://github.com/EdgeSecurityTeam/Vulnerability
 - POChouse：https://github.com/DawnFlame/POChouse
-- 未授权访问漏洞总结：http://luckyzmj.cn/posts/15dff4d3.html#toc-heading-3
+
+#### 漏洞EXP
+
+- ysoserial：https://github.com/frohoff/ysoserial
+
+### 内网渗透
+
+#### 命令行
+
+- The art of command line：https://github.com/jlevy/the-art-of-command-line
 
 #### Bypass
 
@@ -125,12 +178,45 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 - PayloadsAllTheThings：https://github.com/swisskyrepo/PayloadsAllTheThings
 
-### 内网渗透
+#### WebShell
+
+- Behinder 冰蝎：https://github.com/rebeyond/Behinder
+- Godzilla 哥斯拉：https://github.com/BeichenDream/Godzilla
+
+#### 信息收集
+
+- fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
+
+#### 其他
 
 - Responder：https://github.com/SpiderLabs/Responder
-- Windows-Exploit-Suggester：https://github.com/AonCyberLabs/Windows-Exploit-Suggester
-- Linux_Exploit_Suggester：https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
 - CDK：容器渗透 https://github.com/cdk-team/CDK
+
+### 工具赋能
+
+#### Cobaltstrike
+
+- Erebus：后渗透测试插件 https://github.com/DeEpinGh0st/Erebus
+- LSTAR：综合后渗透插件 https://github.com/lintstar/LSTAR
+- ElevateKit：提权插件 https://github.com/rsmudge/ElevateKit
+
+#### Burpsuite
+
+- HaE：高亮标记与信息提取辅助型插件 https://github.com/gh0stkey/HaE
+- Log4j2Scan：Log4j主动扫描 https://github.com/whwlsfb/Log4j2Scan
+
+#### Chrome crx
+
+- Proxy SwitchyOmega：快速切换代理 https://github.com/FelisCatus/SwitchyOmega
+- Wappalyzer：识别网站技术/框架/语言 https://www.wappalyzer.com/
+- EditThisCookie：修改Cookie https://www.editthiscookie.com/
+- FindSomething：在网页的源代码或js中寻找有用信息 https://github.com/ResidualLaugh/FindSomething
+- Disable JavaScript：禁用JavaScript绕过弹窗 https://github.com/dpacassi/disable-javascript
+- Hunter：查找网页暴露邮箱 https://hunter.io/chrome
+
+#### Xray
+
+- Xray：安全评估工具 https://github.com/chaitin/xray
 
 ## 使用姿势
 
