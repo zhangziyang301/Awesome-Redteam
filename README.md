@@ -20,6 +20,16 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - CTF平台
 - 漏洞平台
 
+**信息收集**
+
+- 指纹识别
+  - 国外指纹识别工具
+  - 国内指纹识别工具
+- 目录扫描
+- 子域名爆破
+- 综合信息收集
+- 内网信息收集
+
 **漏洞研究**
 
 - 漏洞综述
@@ -32,12 +42,14 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 命令行
 - Bypass
 - Payload
+- Webshell
 
 **工具赋能**
 
 - Cobaltstrike
 - Burpsuite
 - Chrome crx
+- Xray
 
 ## 网站导航
 
@@ -129,28 +141,66 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 乌云镜像：http://wooyun.2xss.cc/
 - 知道创宇漏洞平台：https://www.seebug.org/
 
-### 信息收集
+## 信息收集
+
+### 指纹识别
+
+#### 国外指纹识别工具
+
+- WhatWeb：开源网站指纹识别软件 https://github.com/urbanadventurer/WhatWeb
+- Wapplyzer：Chrome插件 跨平台网站分析工具 https://github.com/AliasIO/Wappalyzer
+- Whatruns：Chrome 插件 web指纹识别程序 https://www.whatruns.com/
+- Plecost：Wordpress漏洞指纹识别 https://github.com/iniqua/plecost
+- BlindElephant：Web应用程序指纹识别工具 https://github.com/lokifer/BlindElephant
+
+#### 国内指纹识别工具
+
+- TideFinger：提取了多个开源指纹识别工具的规则库并进行了规则重组 https://github.com/TideSec/TideFinger
+- 御剑web指纹识别程序：https://www.webshell.cc/4697.html
+- Test404轻量WEB指纹识别：https://www.test404.com/post-1618.html
+- w11scan分布式WEB指纹识别平台：分布式的WEB指纹识别系统（包括CMS识别、js框架、组件容器、代码语言、WAF等等） https://github.com/w-digital-scanner/w11scan
+- Dayu指纹识别工具：c/s结构jar文件工具  https://github.com/Ms0x0/Dayu
+- WebEye：快速简单地识别WEB服务器类型、CMS类型、WAF类型、WHOIS信息、以及语言框架，使用异步实现指纹的快速识别 https://github.com/zerokeeper/WebEye/
+- WTF_Scan：除了指纹识别外，还有DNS解析、子域名、CDN、端口扫描、敏感目录等功能 https://github.com/dyboy2017/WTF_Scan
+- Webfinger：基于fofa的规则库进行快速检索，大约2000+条指纹数据 https://github.com/se55i0n/Webfinger
+- FingerPrint：调用Wappalyzer模块进行指纹识别 https://github.com/tanjiti/FingerPrint
+
+#### 在线指纹识别
+
+- 云悉指纹识别：http://www.yunsee.cn/
+
+### 目录扫描
+
+- dirsearch：https://github.com/maurosoria/dirsearch
+
+### 子域名爆破
+
+- ksubdomain：https://github.com/knownsec/ksubdomain
+
+### 综合信息收集
 
 - AlliN：https://github.com/P1-Team/AlliN
 - Kunyu：https://github.com/knownsec/Kunyu
 - OneForAll：https://github.com/shmilylty/OneForAll
 - ShuiZe：https://github.com/0x727/ShuiZe_0x727
-- ksubdomain：https://github.com/knownsec/ksubdomain
-- dirsearch：https://github.com/maurosoria/dirsearch
 - Fofa Viewer：https://github.com/wgpsec/fofa_viewer
 
-### 漏洞研究
+### 内网信息收集
 
-#### 漏洞综述
+- fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
+
+## 漏洞研究
+
+### 漏洞综述
 
 - 未授权访问漏洞总结：http://luckyzmj.cn/posts/15dff4d3.html#toc-heading-3
 
-#### 漏洞挖掘
+### 漏洞挖掘
 
 - Windows-Exploit-Suggester：https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 - Linux_Exploit_Suggester：https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
 
-#### 开源项目
+### 开源项目
 
 - Vulhub：https://vulhub.org/
 - PeiQi文库：http://wiki.peiqi.tech/
@@ -159,53 +209,49 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - Vulnerability：https://github.com/EdgeSecurityTeam/Vulnerability
 - POChouse：https://github.com/DawnFlame/POChouse
 
-#### 漏洞EXP
+### 漏洞EXP
 
 - ysoserial：https://github.com/frohoff/ysoserial
 
-### 内网渗透
+## 内网渗透
 
-#### 命令行
+### 命令行
 
 - The art of command line：https://github.com/jlevy/the-art-of-command-line
 
-#### Bypass
+### Bypass
 
 - PHPFuck：https://github.com/splitline/PHPFuck
 - JSFuck：http://www.jsfuck.com/
 
-#### Payload
+### Payload
 
 - PayloadsAllTheThings：https://github.com/swisskyrepo/PayloadsAllTheThings
 
-#### WebShell
+### WebShell
 
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
 - Godzilla 哥斯拉：https://github.com/BeichenDream/Godzilla
 
-#### 信息收集
-
-- fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
-
-#### 其他
+### 其他
 
 - Responder：https://github.com/SpiderLabs/Responder
 - CDK：容器渗透 https://github.com/cdk-team/CDK
 
-### 工具赋能
+## 工具赋能
 
-#### Cobaltstrike
+### Cobaltstrike
 
 - Erebus：后渗透测试插件 https://github.com/DeEpinGh0st/Erebus
 - LSTAR：综合后渗透插件 https://github.com/lintstar/LSTAR
 - ElevateKit：提权插件 https://github.com/rsmudge/ElevateKit
 
-#### Burpsuite
+### Burpsuite
 
 - HaE：高亮标记与信息提取辅助型插件 https://github.com/gh0stkey/HaE
 - Log4j2Scan：Log4j主动扫描 https://github.com/whwlsfb/Log4j2Scan
 
-#### Chrome crx
+### Chrome crx
 
 - Proxy SwitchyOmega：快速切换代理 https://github.com/FelisCatus/SwitchyOmega
 - Wappalyzer：识别网站技术/框架/语言 https://www.wappalyzer.com/
@@ -214,7 +260,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - Disable JavaScript：禁用JavaScript绕过弹窗 https://github.com/dpacassi/disable-javascript
 - Hunter：查找网页暴露邮箱 https://hunter.io/chrome
 
-#### Xray
+### Xray
 
 - Xray：安全评估工具 https://github.com/chaitin/xray
 
