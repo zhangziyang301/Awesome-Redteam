@@ -19,12 +19,14 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 威胁情报平台
 - CTF平台
 - 漏洞平台
+- 靶机平台
 
 **信息收集**
 
 - 指纹识别
   - 国外指纹识别工具
   - 国内指纹识别工具
+  - 在线指纹识别工具
 - 目录扫描
 - 子域名爆破
 - 综合信息收集
@@ -141,6 +143,10 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 乌云镜像：http://wooyun.2xss.cc/
 - 知道创宇漏洞平台：https://www.seebug.org/
 
+### 靶机平台
+
+- HackTheBox：https://www.hackthebox.com/
+
 ## 信息收集
 
 ### 指纹识别
@@ -151,21 +157,13 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - Wapplyzer：Chrome插件 跨平台网站分析工具 https://github.com/AliasIO/Wappalyzer
 - Whatruns：Chrome 插件 web指纹识别程序 https://www.whatruns.com/
 - Plecost：Wordpress漏洞指纹识别 https://github.com/iniqua/plecost
-- BlindElephant：Web应用程序指纹识别工具 https://github.com/lokifer/BlindElephant
 
 #### 国内指纹识别工具
 
 - TideFinger：提取了多个开源指纹识别工具的规则库并进行了规则重组 https://github.com/TideSec/TideFinger
 - 御剑web指纹识别程序：https://www.webshell.cc/4697.html
-- Test404轻量WEB指纹识别：https://www.test404.com/post-1618.html
-- w11scan分布式WEB指纹识别平台：分布式的WEB指纹识别系统（包括CMS识别、js框架、组件容器、代码语言、WAF等等） https://github.com/w-digital-scanner/w11scan
-- Dayu指纹识别工具：c/s结构jar文件工具  https://github.com/Ms0x0/Dayu
-- WebEye：快速简单地识别WEB服务器类型、CMS类型、WAF类型、WHOIS信息、以及语言框架，使用异步实现指纹的快速识别 https://github.com/zerokeeper/WebEye/
-- WTF_Scan：除了指纹识别外，还有DNS解析、子域名、CDN、端口扫描、敏感目录等功能 https://github.com/dyboy2017/WTF_Scan
-- Webfinger：基于fofa的规则库进行快速检索，大约2000+条指纹数据 https://github.com/se55i0n/Webfinger
-- FingerPrint：调用Wappalyzer模块进行指纹识别 https://github.com/tanjiti/FingerPrint
 
-#### 在线指纹识别
+#### 在线指纹识别工具
 
 - 云悉指纹识别：http://www.yunsee.cn/
 
@@ -232,6 +230,12 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
 - Godzilla 哥斯拉：https://github.com/BeichenDream/Godzilla
+
+### 内网穿透
+
+- nps：通过web端管理，无需配置文件 https://github.com/ehang-io/nps
+- frp：55k star项目 https://github.com/fatedier/frp
+- Neo-reGeorg：tunnel快速部署 https://github.com/L-codes/Neo-reGeorg
 
 ### 其他
 
