@@ -99,7 +99,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 ### 公开知识库
 
-- 
+- 狼组公开知识库：https://wiki.wgpsec.org/
 
 ## 信息收集
 
@@ -124,6 +124,11 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### 目录扫描
 
 - dirsearch：https://github.com/maurosoria/dirsearch
+- dirmap：https://github.com/H4ckForJob/dirmap
+
+### HTTP参数扫描
+
+- Arjun：HTTP参数扫描器 https://github.com/s0md3v/Arjun
 
 ### 子域名爆破
 
@@ -140,6 +145,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### 内网信息收集
 
 - fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
+- EHole：红队重点攻击系统指纹探测工具 https://github.com/EdgeSecurityTeam/EHole
 
 ## 漏洞研究
 
@@ -167,10 +173,6 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 ## 内网渗透
 
-### 命令行
-
-- The art of command line：https://github.com/jlevy/the-art-of-command-line
-
 ### Bypass
 
 - PHPFuck：https://github.com/splitline/PHPFuck
@@ -183,6 +185,8 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### WebShell
 
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
+  - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行
+  - Behinder2：windows10 + java 1.8.0_91
 - Godzilla 哥斯拉：https://github.com/BeichenDream/Godzilla
 
 ### 内网穿透
@@ -190,15 +194,30 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - nps：通过web端管理，无需配置文件 https://github.com/ehang-io/nps
 - frp：55k star项目 https://github.com/fatedier/frp
 - Neo-reGeorg：tunnel快速部署 https://github.com/L-codes/Neo-reGeorg
+- proxifier：windows代理工具 https://www.proxifier.com/
+- proxychains：kali代理工具 https://github.com/haad/proxychains
+
+### 容器逃逸
+
+- CDK：容器渗透 https://github.com/cdk-team/CDK
 
 ### 其他
 
-- Responder：https://github.com/SpiderLabs/Responder
-- CDK：容器渗透 https://github.com/cdk-team/CDK
+- The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
+- 在线Hash破解：https://www.somd5.com/
+- Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
+- Impacket：其中的psexec.py通过用户名和密码远程连接到目标服务器 https://github.com/SecureAuthCorp/impacket
+- PsTools：PsExec.exe功能同Impacket中的psexec.py https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
 
 ## 工具赋能
 
+### Metasploit
+
+- Metasploit：https://github.com/rapid7/metasploit-framework
+
 ### Cobaltstrike
+
+- Awesome CobaltStrike：CobaltStrike知识库 https://github.com/zer0yu/Awesome-CobaltStrike
 
 - Erebus：后渗透测试插件 https://github.com/DeEpinGh0st/Erebus
 - LSTAR：综合后渗透插件 https://github.com/lintstar/LSTAR
