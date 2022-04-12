@@ -181,6 +181,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### Payload
 
 - PayloadsAllTheThings：https://github.com/swisskyrepo/PayloadsAllTheThings
+- java.lang.Runtime.exec() Payload：https://www.bugku.net/runtime-exec-payloads/
 
 ### WebShell
 
