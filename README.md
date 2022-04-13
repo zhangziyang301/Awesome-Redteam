@@ -5,23 +5,26 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 ## 网站导航
 
-### 编码转换
+### 编码/加密
 
 - CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef
 - OK Tools在线工具：https://github.com/wangyiwy/oktools
 - CTF在线工具：http://www.hiencode.com/
 - Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
+- 在线MD5 Hash破解：https://www.somd5.com/
 
 ### 实用工具
 
 - Explain Shell：Shell命令解析 https://explainshell.com/
 - 在线正则表达式：https://c.runoob.com/front-end/854/
 - Ceye DNS：DNS oob平台 http://ceye.io/
+- DNS log：DNS oob平台 http://dnslog.cn/
 - Webshell Chop：https://webshellchop.chaitin.cn/demo/
 - XSS Chop：https://xsschop.chaitin.cn/demo/
 - WebShell查杀：https://n.shellpub.com/
 - Google Hacking Database：https://www.exploit-db.com/google-hacking-database
 - Wayback Machine：网页缓存查询 https://archive.org/web
+- 在线代码格式标准化：http://web.chacuo.net/formatsh
 
 ### IP/域名收集
 
@@ -77,6 +80,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 360威胁情报：https://ti.360.net/#/homepage
 - 安恒威胁情报：https://ti.dbappsecurity.com.cn/
 - 火线安全平台：https://www.huoxian.cn
+- Hacking8安全信息流：https://i.hacking8.com/
 
 ### CTF平台
 
@@ -84,6 +88,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - CTF Time：https://ctftime.org/
 - CTF Tools：https://github.com/zardus/ctf-tools
 - 攻防世界：https://adworld.xctf.org.cn/
+- Hacker 101：https://www.hacker101.com/
 
 ### 漏洞平台
 
@@ -96,43 +101,40 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### 靶机平台
 
 - HackTheBox：https://www.hackthebox.com/
+- OWASP Top10：https://owasp.org/www-project-juice-shop/
+- WebGoat：https://github.com/WebGoat/WebGoat
 
 ### 公开知识库
 
 - 狼组公开知识库：https://wiki.wgpsec.org/
+- 404星链计划：知道创宇 404 实验室 https://github.com/knownsec/404StarLink
 
 ## 信息收集
 
 ### 指纹识别
 
-#### 国外指纹识别工具
-
-- WhatWeb：开源网站指纹识别软件 https://github.com/urbanadventurer/WhatWeb
 - Wapplyzer：Chrome插件 跨平台网站分析工具 https://github.com/AliasIO/Wappalyzer
-- Whatruns：Chrome 插件 web指纹识别程序 https://www.whatruns.com/
-- Plecost：Wordpress漏洞指纹识别 https://github.com/iniqua/plecost
-
-#### 国内指纹识别工具
 
 - TideFinger：提取了多个开源指纹识别工具的规则库并进行了规则重组 https://github.com/TideSec/TideFinger
 - 御剑web指纹识别程序：https://www.webshell.cc/4697.html
 
-#### 在线指纹识别工具
-
 - 云悉指纹识别：http://www.yunsee.cn/
 
-### 目录扫描
+### 扫描/爆破
 
-- dirsearch：https://github.com/maurosoria/dirsearch
-- dirmap：https://github.com/H4ckForJob/dirmap
-
-### HTTP参数扫描
+- dirsearch：目录扫描/爆破 https://github.com/maurosoria/dirsearch
+- dirmap：目录扫描/爆破 https://github.com/H4ckForJob/dirmap
 
 - Arjun：HTTP参数扫描器 https://github.com/s0md3v/Arjun
 
-### 子域名爆破
+- ksubdomain：子域名爆破 https://github.com/knownsec/ksubdomain
+- Gobuster：URI/DNS/WEB爆破 https://github.com/OJ/gobuster
 
-- ksubdomain：https://github.com/knownsec/ksubdomain
+### 爆破字典
+
+- Dictionary-Of-Pentesting：渗透测试、SRC漏洞挖掘、爆破、Fuzzing等常用字典 https://github.com/insightglacier/Dictionary-Of-Pentesting
+- fuzzDicts：Web渗透Fuzz字典 https://github.com/TheKingOfDuck/fuzzDicts
+- PentesterSpecialDict：渗透测试工程师精简化字典 https://github.com/ppbibo/PentesterSpecialDict
 
 ### 综合信息收集
 
@@ -158,18 +160,21 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - Windows-Exploit-Suggester：https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 - Linux_Exploit_Suggester：https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
 
-### 开源项目
+### 开源漏洞库
 
 - Vulhub：https://vulhub.org/
 - PeiQi文库：http://wiki.peiqi.tech/
-
 - PoCBox：https://github.com/0verSp4ce/PoCBox
 - Vulnerability：https://github.com/EdgeSecurityTeam/Vulnerability
 - POChouse：https://github.com/DawnFlame/POChouse
 
-### 漏洞EXP
+### POC/EXP
 
-- ysoserial：https://github.com/frohoff/ysoserial
+- ysoserial：Java反序列化 https://github.com/frohoff/ysoserial
+- Vulmap：漏洞扫描和验证工具 https://github.com/zhzyker/vulmap
+- Some-PoC-oR-ExP：各种漏洞PoC、ExP的收集或编写 https://github.com/coffeehb/Some-PoC-oR-ExP
+- CMS-Hunter：CMS漏洞测试用例集合 https://github.com/SecWiki/CMS-Hunter
+- Penetration_Testing_POC：https://github.com/Mr-xn/Penetration_Testing_POC
 
 ## 内网渗透
 
@@ -178,13 +183,16 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - PHPFuck：https://github.com/splitline/PHPFuck
 - JSFuck：http://www.jsfuck.com/
 
-### Payload
+### Payloads
 
 - PayloadsAllTheThings：https://github.com/swisskyrepo/PayloadsAllTheThings
-- java.lang.Runtime.exec() Payload：https://www.bugku.net/runtime-exec-payloads/
+- java.lang.Runtime.exec() Payload：java Payload在线生成 https://www.bugku.net/runtime-exec-payloads/
+- PHP Generic Gadget Chains：PHP反序列化Payload https://github.com/ambionics/phpggc
 
 ### WebShell
 
+- Webshell收集项目：https://github.com/tennc/webshell
+- 反弹shell命令速查：[https://github.com/Threekiii/Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam/blob/master/command/reverse_shell%E5%8F%8D%E5%BC%B9shell%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
   - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行
   - Behinder2：windows10 + java 1.8.0_91
@@ -192,11 +200,11 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 ### 内网穿透
 
-- nps：通过web端管理，无需配置文件 https://github.com/ehang-io/nps
-- frp：55k star项目 https://github.com/fatedier/frp
+- NPS：通过web端管理，无需配置文件 https://github.com/ehang-io/nps
+- FRP：55k star项目 https://github.com/fatedier/frp
 - Neo-reGeorg：tunnel快速部署 https://github.com/L-codes/Neo-reGeorg
-- proxifier：windows代理工具 https://www.proxifier.com/
-- proxychains：kali代理工具 https://github.com/haad/proxychains
+- Proxifier：windows代理工具 https://www.proxifier.com/
+- Proxychains：kali代理工具 https://github.com/haad/proxychains
 
 ### 容器逃逸
 
@@ -205,10 +213,14 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### 其他
 
 - The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
-- 在线Hash破解：https://www.somd5.com/
 - Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
 - Impacket：其中的psexec.py通过用户名和密码远程连接到目标服务器 https://github.com/SecureAuthCorp/impacket
 - PsTools：PsExec.exe功能同Impacket中的psexec.py https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
+
+## 移动端安全
+
+- CrackMinApp：反编译微信小程序 https://github.com/Cherrison/CrackMinApp  
+- AppInfoScanner：移动端信息收集 https://github.com/kelvinBen/AppInfoScanner
 
 ## 工具赋能
 
