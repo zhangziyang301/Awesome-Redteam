@@ -148,6 +148,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 - fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
 - EHole：红队重点攻击系统指纹探测工具 https://github.com/EdgeSecurityTeam/EHole
+- Ladon：用于大型网络渗透的多线程插件化综合扫描工具 https://github.com/k8gege/Ladon
 
 ## 漏洞研究
 
