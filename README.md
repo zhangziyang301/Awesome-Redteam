@@ -3,6 +3,12 @@
 
 markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
+## 仓库导航
+
+- 反弹shell命令速查：[Awesome-Redteam-反弹shell命令速查](https://github.com/Threekiii/Awesome-Redteam/blob/master/command/reverse_shell%E5%8F%8D%E5%BC%B9shell%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+- 重要端口及服务速查：[Awesome-Redteam-重要端口及服务速查](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/ports.md)
+- 安全厂商及其官网链接：[Awesome-Redteam-安全厂商及其官网链接](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/%E5%AE%89%E5%85%A8%E5%8E%82%E5%95%86%E5%8F%8A%E5%85%B6%E5%AE%98%E7%BD%91%E9%93%BE%E6%8E%A5.txt)
+
 ## 网站导航
 
 ### 编码/加密
@@ -193,7 +199,6 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### WebShell
 
 - Webshell收集项目：https://github.com/tennc/webshell
-- 反弹shell命令速查：[https://github.com/Threekiii/Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam/blob/master/command/reverse_shell%E5%8F%8D%E5%BC%B9shell%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
   - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行
   - Behinder2：windows10 + java 1.8.0_91
@@ -222,10 +227,6 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 - CrackMinApp：反编译微信小程序 https://github.com/Cherrison/CrackMinApp  
 - AppInfoScanner：移动端信息收集 https://github.com/kelvinBen/AppInfoScanner
-
-## 安全厂商
-
-- 安全厂商及其官网链接：[https://github.com/Threekiii/Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/%E5%AE%89%E5%85%A8%E5%8E%82%E5%95%86%E5%8F%8A%E5%85%B6%E5%AE%98%E7%BD%91%E9%93%BE%E6%8E%A5.txt)
 
 ## 工具赋能
 
