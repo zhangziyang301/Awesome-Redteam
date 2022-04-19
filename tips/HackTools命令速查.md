@@ -1,13 +1,36 @@
 # 端口扫描
 
+## Nmap
+
 ```
-# nmap
 nmap -sS -Pn -n --open --min-hostgroup 4 --min-parallelism 1024 --host-timeout 30 -T4 -v -p 1-65535 -iL ip.txt -oX output.xml
 ```
 
 ```
-# fscan
+nmap -sV 1.1.1.1 -p 8080
+
+-sP PING 扫描（打印出对 PING 扫描做出响应的主机，不进行进一步测试，无法用于端口扫描）
+-sT TCP Connect 扫描
+-sS TCP SYN 扫描
+-sU UDP 扫描
+```
+
+## fscan
+
+```
 fscan -hf hosts.txt --nopoc -t 100
+```
+
+```
+fscan.exe -h 192.168.1.1/24  (默认使用全部模块)
+fscan.exe -h 192.168.1.1/16 -p 8000-9000 (指定端口扫描)
+fscan.exe -h 192.168.1.1/24 -np -no -nopoc(跳过存活检测 、不保存文件、跳过web poc扫描)
+```
+
+## hping3
+
+```
+hping3 -S 1.1.1.1 --scan 1-65535
 ```
 
 # AlliN
@@ -128,14 +151,12 @@ python sqlmap.py -u  "https://xxx.xxx" --dbs
 
 # Xray
 
-- https://github.com/chaitin/xray
-
 ```shell
 # 网络扫描
 .\xray_windows_386.exe webscan --listen 127.0.0.1:7777 --html-output xray.html
 
 # 服务扫描
-.\xray_windows_386.exe servicescan -t 127.0.0.1:7777
+.\xray_windows_386.exe servicescan --target 1.1.1.1:8080
 
 # 指定插件
 xray webscan --plugins cmd-injection,sqldet --url http://example.com
@@ -147,3 +168,8 @@ xray webscan --plugins cmd-injection,sqldet --listen 127.0.0.1:7777
 ```
 copy 1.jpg/b+1.php/a 2.jpg
 ```
+
+
+
+
+
