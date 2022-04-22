@@ -214,6 +214,10 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - Proxifier：windows代理工具 https://www.proxifier.com/
 - Proxychains：kali代理工具 https://github.com/haad/proxychains
 
+### 开源蜜罐
+
+- HFish：一款安全、简单可信赖的跨平台蜜罐软件，允许商业和个人用户免费使用 https://github.com/hacklcx/HFish
+
 ### 容器逃逸
 
 - CDK：容器渗透 https://github.com/cdk-team/CDK

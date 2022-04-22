@@ -83,7 +83,7 @@ Apache APISIX 是一个基于 OpenResty 和 Etcd 实现的动态、实时、高�
 
 - Apache APISIX 默认密钥漏洞 CVE-2020-13945
 
-### Struts
+### Struts/Struts2
 
 Apache Struts 是一个免费开源的 MVC 框架，用于创建 Java web 应用程序。Struts2 + Spring + Hibernate 三大框架即Java Web 框架三剑客。
 
