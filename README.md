@@ -108,16 +108,27 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - 乌云镜像：http://wooyun.2xss.cc/
 - 知道创宇漏洞平台：https://www.seebug.org/
 
-### 靶机平台
+### 专项靶机平台
 
+- Sqli-labs：SQL注入 https://github.com/Audi-1/sqli-labs
+- Xss-labs：XSS注入 https://github.com/do0dl3/xss-labs
+- Upload-labs：上传漏洞 https://github.com/c0ny1/upload-labs
+
+### 综合靶机平台
+
+- DVWA：https://github.com/digininja/DVWA
 - HackTheBox：https://www.hackthebox.com/
 - OWASP Top10：https://owasp.org/www-project-juice-shop/
 - WebGoat：https://github.com/WebGoat/WebGoat
+- Vulstudy：docker快速搭建共17个漏洞靶场 https://github.com/c0ny1/vulstudy
 
 ### 公开知识库
 
+- 零组文库：零组已停运，非官方 https://0-wiki.com/
+- 先知社区：https://xz.aliyun.com/
 - 狼组公开知识库：https://wiki.wgpsec.org/
 - 404星链计划：知道创宇 404 实验室 https://github.com/knownsec/404StarLink
+- MITRE ATT＆CK：网络攻击中使用的已知对抗战术和技术 https://attack.mitre.org/matrices/enterprise/
 
 ## 信息收集
 
@@ -134,11 +145,10 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 - dirsearch：目录扫描/爆破 https://github.com/maurosoria/dirsearch
 - dirmap：目录扫描/爆破 https://github.com/H4ckForJob/dirmap
-
 - Arjun：HTTP参数扫描器 https://github.com/s0md3v/Arjun
-
 - ksubdomain：子域名爆破 https://github.com/knownsec/ksubdomain
 - Gobuster：URI/DNS/WEB爆破 https://github.com/OJ/gobuster
+- Hydra：弱密码爆破 https://github.com/vanhauser-thc/thc-hydra
 
 ### 爆破字典
 
@@ -157,6 +167,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### 内网信息收集
 
 - fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
+- hping3：端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping
 - EHole：红队重点攻击系统指纹探测工具 https://github.com/EdgeSecurityTeam/EHole
 - Ladon：用于大型网络渗透的多线程插件化综合扫描工具 https://github.com/k8gege/Ladon
 
@@ -174,8 +185,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 ### 开源漏洞库
 
 - Vulhub：https://vulhub.org/
-- PeiQi文库：http://wiki.peiqi.tech/
-- PoCBox：https://github.com/0verSp4ce/PoCBox
+- PeiQi：http://wiki.peiqi.tech/
 - Vulnerability：https://github.com/EdgeSecurityTeam/Vulnerability
 - POChouse：https://github.com/DawnFlame/POChouse
 
@@ -231,10 +241,11 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - Impacket：其中的psexec.py通过用户名和密码远程连接到目标服务器 https://github.com/SecureAuthCorp/impacket
 - PsTools：PsExec.exe功能同Impacket中的psexec.py https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
 
-## 移动端安全
+## 移动端/物联网安全
 
 - CrackMinApp：反编译微信小程序 https://github.com/Cherrison/CrackMinApp  
 - AppInfoScanner：移动端信息收集 https://github.com/kelvinBen/AppInfoScanner
+- IoT-vulhub： IoT 版固件漏洞复现环境 https://github.com/firmianay/IoT-vulhub
 
 ## 工具赋能
 
@@ -263,6 +274,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - FindSomething：在网页的源代码或js中寻找有用信息 https://github.com/ResidualLaugh/FindSomething
 - Disable JavaScript：禁用JavaScript绕过弹窗 https://github.com/dpacassi/disable-javascript
 - Hunter：查找网页暴露邮箱 https://hunter.io/chrome
+- Hack Bar：渗透神器No.1 https://github.com/0140454/hackbar
 
 ### Xray
 
