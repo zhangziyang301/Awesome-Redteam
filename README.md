@@ -5,13 +5,15 @@
 
 markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
+[TOC]
+
 ## Vulnerability Wiki
 
 一个知识库，集成了Vulhub、Peiqi、0sec、Wooyun（待更新）等开源漏洞库。
 
 可以通过docsify自定义部署（推荐docsify部署），也可以通过docker快速部署。
 
-- Vulnerability Wiki：[Threekiii/Vulnerability Wiki](https://github.com/Threekiii/Vulnerability Wiki)
+- Vulnerability Wiki：[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
 
 ![image-20220429163635753](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202204291636876.png)
 
@@ -25,13 +27,14 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 
 ## 开源导航
 
-### 编码/加密
+### 编解码/加密
 
 - CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef
 - OK Tools在线工具：https://github.com/wangyiwy/oktools
 - CTF在线工具：http://www.hiencode.com/
 - Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
 - 在线MD5 Hash破解：https://www.somd5.com/
+- XSSEE：在线综合编解码工具 https://evilcos.me/lab/xssee/
 
 ### 实用工具
 
@@ -44,6 +47,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - WebShell查杀：https://n.shellpub.com/
 - Google Hacking Database：https://www.exploit-db.com/google-hacking-database
 - Wayback Machine：网页缓存查询 https://archive.org/web
+- HTML5 Security Cheatsheet：XSS攻击向量学习/参考 https://html5sec.org/
 - 在线代码格式标准化：http://web.chacuo.net/formatsh
 
 ### IP/域名收集
@@ -251,11 +255,18 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
 - Impacket：其中的psexec.py通过用户名和密码远程连接到目标服务器 https://github.com/SecureAuthCorp/impacket
 - PsTools：PsExec.exe功能同Impacket中的psexec.py https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
 
-## 移动端/物联网安全
+## 移动端/物联网
 
 - CrackMinApp：反编译微信小程序 https://github.com/Cherrison/CrackMinApp  
 - AppInfoScanner：移动端信息收集 https://github.com/kelvinBen/AppInfoScanner
 - IoT-vulhub： IoT 版固件漏洞复现环境 https://github.com/firmianay/IoT-vulhub
+
+## 逆向分析
+
+- 逆向分析工具集：https://pythonarsenal.com/
+- PEiD：查壳工具 https://www.aldeid.com/wiki/PEiD
+- Py2exe：Python打包工具 https://www.py2exe.org/
+- PyInstaller：Python打包工具 https://github.com/pyinstaller/pyinstaller
 
 ## 工具赋能
 
