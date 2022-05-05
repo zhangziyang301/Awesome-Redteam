@@ -1,9 +1,9 @@
 # Awesome-Redteam
 **【免责声明】本仓库所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，否则后果自行承担。**
 
-轻量化红队知识仓库，不定期更新。
+轻量化红队知识仓库，不定期更新。markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
-markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
+近期整理了一些攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网渗透）：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 
 ## 目录
 
@@ -219,7 +219,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Hydra：弱密码爆破 https://github.com/vanhauser-thc/thc-hydra
 - John the Ripper：https://github.com/openwall/john
 
-### 信息泄露爆破字典
+### 爆破字典
 
 - Dictionary-Of-Pentesting：渗透测试、SRC漏洞挖掘、爆破、Fuzzing等常用字典 https://github.com/insightglacier/Dictionary-Of-Pentesting
 - fuzzDicts：Web渗透Fuzz字典 https://github.com/TheKingOfDuck/fuzzDicts
