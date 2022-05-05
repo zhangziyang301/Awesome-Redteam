@@ -10,7 +10,7 @@
 - [漏洞知识库](#漏洞知识库)
 - [仓库导航](#仓库导航)
 - [开源导航](#开源导航)
-  - [编解码/加密](#编解码加密)
+  - [编解码/加解密](#编解码加解密)
   - [实用工具](#实用工具)
   - [IP/域名收集](#ip域名收集)
     - [确认真实IP地址](#确认真实ip地址)
@@ -81,7 +81,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 ## 开源导航
 
-### 编解码/加密
+### 编解码/加解密
 
 - CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef
 - OK Tools在线工具：https://github.com/wangyiwy/oktools

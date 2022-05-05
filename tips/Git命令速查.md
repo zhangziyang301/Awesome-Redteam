@@ -1,4 +1,6 @@
-# Git删除历史记录
+# Git命令速查
+
+## 删除历史记录
 
 1. Checkout
 
@@ -36,3 +38,7 @@ git branch -m master
 git push -f origin master
 ```
 
+## Markdown生成目录
+
+1. 下载VSCode插件：Markdown All in One 
+2. 快捷键`CTRL(CMD)+SHIFT+P`，输入`Markdown All in One: Create Table of Contents`回车
