@@ -46,6 +46,8 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
   - [容器逃逸](#容器逃逸)
   - [其他](#其他)
 - [移动端/物联网](#移动端物联网)
+- [云服务](#云服务)
+- [大数据](#大数据)
 - [逆向分析](#逆向分析)
 - [工具赋能](#工具赋能)
   - [Metasploit](#metasploit)
@@ -67,7 +69,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 ![image-20220429163635753](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202204291636876.png)
 
-## 仓库导航
+## 项目导航
 
 - 反弹shell命令速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%8F%8D%E5%BC%B9shell%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 - 重要端口及服务速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E9%87%8D%E8%A6%81%E7%AB%AF%E5%8F%A3%E5%8F%8A%E6%9C%8D%E5%8A%A1%E9%80%9F%E6%9F%A5.md)
@@ -213,6 +215,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - ksubdomain：子域名爆破 https://github.com/knownsec/ksubdomain
 - Gobuster：URI/DNS/WEB爆破 https://github.com/OJ/gobuster
 - Hydra：弱密码爆破 https://github.com/vanhauser-thc/thc-hydra
+- John the Ripper：https://github.com/openwall/john
 
 ### 爆破字典
 
@@ -267,6 +270,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - PHPFuck：https://github.com/splitline/PHPFuck
 - JSFuck：http://www.jsfuck.com/
+- Gopherus：生成gopher链接 https://github.com/tarunkant/Gopherus
 
 ### Payloads
 
@@ -309,7 +313,17 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - CrackMinApp：反编译微信小程序 https://github.com/Cherrison/CrackMinApp  
 - AppInfoScanner：移动端信息收集 https://github.com/kelvinBen/AppInfoScanner
+- wxappUnpacker：小程序解包 https://github.com/xuedingmiaojun/wxappUnpacker
 - IoT-vulhub： IoT 版固件漏洞复现环境 https://github.com/firmianay/IoT-vulhub
+
+## 云服务
+
+- aliyun-accesskey-Tools：阿里云accesskey利用工具 https://github.com/mrknow001/aliyun-accesskey-Tools
+- cosbrowser：腾讯云COS客户端 https://github.com/TencentCloud/cosbrowser
+
+## 大数据
+
+- DruidCrack：Druid密文解密工具 https://github.com/rabbitmask/DruidCrack
 
 ## 逆向分析
 
