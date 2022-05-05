@@ -1,5 +1,17 @@
 # 端口扫描
 
+重要端口及服务：
+
+```
+21,22,23,53,80,111,389,443,445,512,873,1433,1521,2049,2181,2375,3306,3389,4848,5432,5601,5672,5900,5984,6379,7001,8000-9000,9060,9092,9200,9300,10000,10051,11211.20880,27017,28017,50030,50070
+```
+
+8000-9000端口：
+
+```
+8080,8081,8089,8090,8095,8161,8888,8983,9000
+```
+
 ## Nmap
 
 ```
@@ -31,6 +43,27 @@ fscan.exe -h 192.168.1.1/24 -np -no -nopoc(跳过存活检测 、不保存文件
 
 ```
 hping3 -S 1.1.1.1 --scan 1-65535
+```
+
+# 文件查找
+
+## find
+
+```
+# 查看拥有suid权限的文件
+find / -perm -u=s -type f 2>/dev/null
+
+# find结合set权限位提权
+find /usr/bin/vim -exec "whoami" \;
+
+# 全盘查找含有 flag 的文件
+grep flag -r /
+
+# 查找备份压缩包文件
+find / -name *.tar.gz或find / -name *.zip
+
+# 查找包含关键字的文件
+find /etc -type f | xargs -I {} grep -l server {}
 ```
 
 # AlliN
@@ -147,6 +180,12 @@ python oneforall.py --targets ./example.txt run
 
 ```python
 python sqlmap.py -u  "https://xxx.xxx" --dbs
+```
+
+# TideFinger
+
+```
+python TideFinger.py -u http://192.168.0.1:8080/
 ```
 
 # Xray

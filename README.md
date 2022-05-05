@@ -30,6 +30,7 @@ markdown文档与Linux alias命令或Windows doskey命令联动，可实现终�
   - [指纹识别](#指纹识别)
   - [扫描/爆破](#扫描爆破)
   - [爆破字典](#爆破字典)
+  - [信息泄露](#信息泄露)
   - [综合信息收集](#综合信息收集)
   - [内网信息收集](#内网信息收集)
 - [漏洞研究](#漏洞研究)
@@ -73,9 +74,10 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - 反弹shell命令速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%8F%8D%E5%BC%B9shell%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 - 重要端口及服务速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E9%87%8D%E8%A6%81%E7%AB%AF%E5%8F%A3%E5%8F%8A%E6%9C%8D%E5%8A%A1%E9%80%9F%E6%9F%A5.md)
-- 安全厂商及其官网链接速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%AE%89%E5%85%A8%E5%8E%82%E5%95%86%E5%8F%8A%E5%85%B6%E5%AE%98%E7%BD%91%E9%93%BE%E6%8E%A5%E9%80%9F%E6%9F%A5.txt)
+- 安全厂商及官网链接速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%AE%89%E5%85%A8%E5%8E%82%E5%95%86%E5%8F%8A%E5%85%B6%E5%AE%98%E7%BD%91%E9%93%BE%E6%8E%A5%E9%80%9F%E6%9F%A5.txt)
 - 红队中易被攻击的一些重点系统漏洞整理（来源：棱角安全团队）：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/%E7%BA%A2%E9%98%9F%E4%B8%AD%E6%98%93%E8%A2%AB%E6%94%BB%E5%87%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E9%87%8D%E7%82%B9%E7%B3%BB%E7%BB%9F%E6%BC%8F%E6%B4%9E%E6%95%B4%E7%90%86.md)
 - Apache项目及漏洞指纹速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/Apache%E9%A1%B9%E7%9B%AE%E5%8F%8A%E6%BC%8F%E6%B4%9E%E6%8C%87%E7%BA%B9%E9%80%9F%E6%9F%A5.md) 
+- 网络攻击与防御图谱：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E7%BD%91%E7%BB%9C%E6%94%BB%E5%87%BB%E4%B8%8E%E9%98%B2%E5%BE%A1%E5%9B%BE%E8%B0%B1.svg) 
 
 ## 开源导航
 
@@ -217,11 +219,15 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Hydra：弱密码爆破 https://github.com/vanhauser-thc/thc-hydra
 - John the Ripper：https://github.com/openwall/john
 
-### 爆破字典
+### 信息泄露爆破字典
 
 - Dictionary-Of-Pentesting：渗透测试、SRC漏洞挖掘、爆破、Fuzzing等常用字典 https://github.com/insightglacier/Dictionary-Of-Pentesting
 - fuzzDicts：Web渗透Fuzz字典 https://github.com/TheKingOfDuck/fuzzDicts
 - PentesterSpecialDict：渗透测试工程师精简化字典 https://github.com/ppbibo/PentesterSpecialDict
+
+### 信息泄露
+
+- GitHack：.git泄露利用脚本 https://github.com/lijiejie/GitHack
 
 ### 综合信息收集
 
@@ -264,6 +270,10 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - CMS-Hunter：CMS漏洞测试用例集合 https://github.com/SecWiki/CMS-Hunter
 - Penetration_Testing_POC：https://github.com/Mr-xn/Penetration_Testing_POC
 
+### Bypass
+
+- CVE-2021-44228-PoC-log4j-bypass-words：https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words
+
 ## 内网渗透
 
 ### Bypass
@@ -271,6 +281,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - PHPFuck：https://github.com/splitline/PHPFuck
 - JSFuck：http://www.jsfuck.com/
 - Gopherus：生成gopher链接 https://github.com/tarunkant/Gopherus
+- GolangBypassAV：免杀 https://github.com/safe6Sec/GolangBypassAV
 
 ### Payloads
 
