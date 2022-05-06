@@ -3,7 +3,9 @@
 
 轻量化红队知识仓库，不定期更新。markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
-**近期整理了一些攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等等）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+**近期整理了一些攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等知识点）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+
+**长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun（待更新）等开源漏洞库）**：**[Click Here](#漏洞知识库)
 
 ## 目录
 
@@ -62,7 +64,7 @@
 
 ## 漏洞知识库
 
-Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成了Vulhub、Peiqi、0sec、Wooyun（待更新）等开源漏洞库。
+Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成了Vulhub、Peiqi、Edge、0sec、Wooyun（待更新）等开源漏洞库。
 
 可以通过docsify自定义部署（推荐docsify部署），也可以通过docker快速部署。
 
