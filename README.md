@@ -5,7 +5,7 @@
 
 **近期整理了一些攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等知识点）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 
-**长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun（待更新）等开源漏洞库）**：**[Click Here](#漏洞知识库)
+**长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun（待更新）等开源漏洞库）：**[Click Here](#漏洞知识库)
 
 ## 目录
 
@@ -80,6 +80,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - 红队中易被攻击的一些重点系统漏洞整理（来源：棱角安全团队）：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/%E7%BA%A2%E9%98%9F%E4%B8%AD%E6%98%93%E8%A2%AB%E6%94%BB%E5%87%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E9%87%8D%E7%82%B9%E7%B3%BB%E7%BB%9F%E6%BC%8F%E6%B4%9E%E6%95%B4%E7%90%86.md)
 - Apache项目及漏洞指纹速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/Apache%E9%A1%B9%E7%9B%AE%E5%8F%8A%E6%BC%8F%E6%B4%9E%E6%8C%87%E7%BA%B9%E9%80%9F%E6%9F%A5.md) 
 - 网络攻击与防御图谱：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E7%BD%91%E7%BB%9C%E6%94%BB%E5%87%BB%E4%B8%8E%E9%98%B2%E5%BE%A1%E5%9B%BE%E8%B0%B1.svg) 
+- DNS log平台搭建：[Click Here](https://github.com/Threekiii/Awesome-Redteam/) 
 
 ## 开源导航
 
@@ -92,12 +93,17 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - 在线MD5 Hash破解：https://www.somd5.com/
 - XSSEE：在线综合编解码工具 https://evilcos.me/lab/xssee/
 
+### DNS log平台
+
+- Ceye DNS：在线平台 http://ceye.io/
+- Dnslog：在线平台 http://dnslog.cn/
+- Fuzz.Red：在线平台 https://github.com/AlphabugX/Alphalog
+- DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO
+
 ### 实用工具
 
 - Explain Shell：Shell命令解析 https://explainshell.com/
 - 在线正则表达式：https://c.runoob.com/front-end/854/
-- Ceye DNS：DNS oob平台 http://ceye.io/
-- DNS log：DNS oob平台 http://dnslog.cn/
 - Webshell Chop：https://webshellchop.chaitin.cn/demo/
 - XSS Chop：https://xsschop.chaitin.cn/demo/
 - WebShell查杀：https://n.shellpub.com/
@@ -311,9 +317,10 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - HFish：一款安全、简单可信赖的跨平台蜜罐软件，允许商业和个人用户免费使用 https://github.com/hacklcx/HFish
 
-### 容器逃逸
+### 容器安全
 
 - CDK：容器渗透 https://github.com/cdk-team/CDK
+- veinmind-tools：容器安全工具集 https://github.com/chaitin/veinmind-tools
 
 ### 其他
 
@@ -377,6 +384,8 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### Xray
 
 - Xray：安全评估工具 https://github.com/chaitin/xray
+
+
 
 ## 使用姿势
 
