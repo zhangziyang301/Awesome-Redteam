@@ -71,9 +71,9 @@
 
 ## 漏洞知识库
 
-Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成了Vulhub、Peiqi、Edge、0sec、Wooyun（待更新）等开源漏洞库。
+Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库。
 
-可以通过docsify自定义部署（推荐docsify部署），也可以通过docker快速部署。
+可以通过docsify自定义部署，也可以通过docker-compose快速部署。
 
 - Vulnerability Wiki：[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
 
