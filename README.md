@@ -77,7 +77,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - Vulnerability Wiki：[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
 
-![image-20220429163635753](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202204291636876.png)
+![image-20220513114641254](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205131146422.png)
 
 ## 项目导航
 
@@ -424,7 +424,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - 双击alias.bat运行，重启cmd。
 - 此时在终端输入httpcode，即可返回文件内容。
 
-![image-20220208090022459](./images/image-20220208090022459.png)
+![image-20220208090022459](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205131147745.png)
 
 > 解决cmd中文乱码的问题：
 >
