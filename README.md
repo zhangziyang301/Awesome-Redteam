@@ -437,5 +437,4 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - 安装插件`Markdown Viewer`。
 - 配合Bootstrap可以实现快速部署导航页或文档库。
 
-![image-20220208091030741](./images/image-20220208091030741.png)
-
+![image-20220519182738441](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191827578.png)
