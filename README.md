@@ -3,7 +3,9 @@
 
 轻量化红队知识仓库，不定期更新。markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
-**近期整理了一些攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等知识点）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+**近期在复现免杀（涵盖msf、evasion、veil、venom、shellter等）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E5%85%8D%E6%9D%80.md)
+
+**攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等知识点）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 
 **长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库）：**[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
 
