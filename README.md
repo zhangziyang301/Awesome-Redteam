@@ -17,6 +17,7 @@
   - [漏洞知识库](#漏洞知识库)
   - [项目导航](#项目导航)
     - [速查文档-CheatSheets](#速查文档-CheatSheets)
+    - [一些代码-Scripts](#一些代码-Scripts)
     - [攻防知识-Tips](#攻防知识-Tips)
     - [服务搭建-Docs](#服务搭建-Docs)
   - [开源导航](#开源导航)
@@ -96,7 +97,11 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - 安全厂商及官网链接速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E5%AE%89%E5%85%A8%E5%8E%82%E5%95%86%E5%8F%8A%E5%AE%98%E7%BD%91%E9%93%BE%E6%8E%A5%E9%80%9F%E6%9F%A5.txt)
 - 主要安全产品及弱口令速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E4%B8%BB%E8%A6%81%E5%AE%89%E5%85%A8%E4%BA%A7%E5%93%81%E5%8F%8A%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 - Apache项目及漏洞指纹速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/Apache%E9%A1%B9%E7%9B%AE%E5%8F%8A%E6%BC%8F%E6%B4%9E%E6%8C%87%E7%BA%B9%E9%80%9F%E6%9F%A5.md) 
-- OWASP TOP10 2017/2021 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/OWASP%20TOP10.md) 
+- OWASP TOP10 2017/2021：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/OWASP%20TOP10.md) 
+
+### 一些代码-Scripts
+
+- ShellcodeWrapper：[Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/ShellcodeWrapper) 
 
 ### 攻防知识-Tips
 
