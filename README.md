@@ -5,7 +5,7 @@
 
 **近期在复现免杀（涵盖msf、evasion、veil、venom、shellter等）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E5%85%8D%E6%9D%80.md)
 
-**攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等知识点）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+**攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等知识点）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 
 **长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库）：**[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
 
@@ -39,6 +39,7 @@
     - [扫描/爆破](#扫描爆破)
     - [爆破字典](#爆破字典)
     - [信息泄露](#信息泄露)
+    - [电子邮箱](#电子邮箱)
     - [综合信息收集](#综合信息收集)
     - [内网信息收集](#内网信息收集)
   - [漏洞研究](#漏洞研究)
@@ -235,6 +236,13 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### 信息泄露
 
 - GitHack：.git泄露利用脚本 https://github.com/lijiejie/GitHack
+- Hawkeye：GitHub 泄露监控系统 https://github.com/0xbug/Hawkeye 
+
+### 电子邮箱
+
+- Hunter：Chrome插件 查找网页暴露邮箱 https://hunter.io/chrome
+- Skymem：邮箱地址搜索 https://www.skymem.info/
+- 搜邮箱：邮箱域名搜索 https://souyouxiang.com/find-contact/
 
 ### 综合信息收集
 
@@ -411,7 +419,6 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - EditThisCookie：修改Cookie https://www.editthiscookie.com/
 - FindSomething：在网页的源代码或js中寻找有用信息 https://github.com/ResidualLaugh/FindSomething
 - Disable JavaScript：禁用JavaScript绕过弹窗 https://github.com/dpacassi/disable-javascript
-- Hunter：查找网页暴露邮箱 https://hunter.io/chrome
 - Hack Bar：渗透神器No.1 https://github.com/0140454/hackbar
 
 ### Xray
