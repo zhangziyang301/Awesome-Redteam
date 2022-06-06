@@ -333,6 +333,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - GolangBypassAV：https://github.com/safe6Sec/GolangBypassAV
 - BypassAntiVirus：远控免杀系列文章及配套工具 https://github.com/TideSec/BypassAntiVirus
+- 杀软比对：https://www.shentoushi.top/av/av.php
 
 ### 内网穿透
 
