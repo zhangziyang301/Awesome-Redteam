@@ -67,6 +67,7 @@
     - [CTF平台](#ctf平台)
   - [工具赋能](#工具赋能)
     - [Metasploit](#metasploit)
+    - [Yakit](#Yakit)
     - [Cobaltstrike](#cobaltstrike)
     - [Burpsuite](#burpsuite)
     - [Chrome crx](#chrome-crx)
@@ -129,6 +130,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### 实用工具
 
 - Explain Shell：Shell命令解析 https://explainshell.com/
+- 反弹Shell生成：可本地部署 https://github.com/0dayCTF/reverse-shell-generator
 - 在线正则表达式：https://c.runoob.com/front-end/854/
 - Webshell Chop：https://webshellchop.chaitin.cn/demo/
 - XSS Chop：https://xsschop.chaitin.cn/demo/
@@ -322,6 +324,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
   - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行
   - Behinder2：windows10 + java 1.8.0_91
 - Godzilla 哥斯拉：https://github.com/BeichenDream/Godzilla
+- Skyscorpion：https://github.com/shack2/skyscorpion
 
 ### Bypass
 
@@ -399,6 +402,10 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### Metasploit
 
 - Metasploit：https://github.com/rapid7/metasploit-framework
+
+### Yakit
+
+- Yakit：网络安全单兵工具 对标Burpsuite https://github.com/yaklang/yakit
 
 ### Cobaltstrike
 
