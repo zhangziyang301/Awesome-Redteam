@@ -213,10 +213,9 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### 指纹识别
 
 - Wapplyzer：Chrome插件 跨平台网站分析工具 https://github.com/AliasIO/Wappalyzer
-
 - TideFinger：提取了多个开源指纹识别工具的规则库并进行了规则重组 https://github.com/TideSec/TideFinger
+- Dismap：tcp/udp/tls 协议指纹和 4500+ Web 指纹规则 https://github.com/zhzyker/dismap
 - 御剑web指纹识别程序：https://www.webshell.cc/4697.html
-
 - 云悉指纹识别：http://www.yunsee.cn/
 
 ### 扫描/爆破
@@ -259,6 +258,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
 - hping3：端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping
 - EHole：红队重点攻击系统指纹探测工具 https://github.com/EdgeSecurityTeam/EHole
+- ENScan_GO：国内企业信息收集 https://github.com/wgpsec/ENScan_GO
 - Ladon：用于大型网络渗透的多线程插件化综合扫描工具 https://github.com/k8gege/Ladon
 
 ## 漏洞研究
@@ -336,6 +336,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - GolangBypassAV：https://github.com/safe6Sec/GolangBypassAV
 - BypassAntiVirus：远控免杀系列文章及配套工具 https://github.com/TideSec/BypassAntiVirus
+- AV_Evasion_Tool：掩日 - 适用于红队的综合免杀工具 https://github.com/1y0n/AV_Evasion_Tool
 - 杀软比对：https://www.shentoushi.top/av/av.php
 
 ### 内网穿透
