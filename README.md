@@ -1,15 +1,14 @@
 # Awesome-Redteam
+
 **【免责声明】本仓库所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，否则后果自行承担。**
 
 轻量化红队知识仓库，不定期更新。markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
-**近期在复现免杀（涵盖msf、evasion、veil、venom、shellter等）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E5%85%8D%E6%9D%80.md)
+**攻防渗透常用命令（信息收集/漏洞挖掘/内网穿透/msf/cs）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 
-**攻防渗透中的常用命令（涵盖信息收集/漏洞挖掘/内网穿透/msf/cs等知识点）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+**长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun等互联网公开漏洞库）：**[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
 
-**长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库）：**[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
-
-**长期维护一个漏洞利用工具库（涵盖Vulhub、Peiqi等开源漏洞库）：**[Threekiii/Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)
+**长期维护一个漏洞利用工具库（涵盖Vulhub等互联网公开漏洞库）：**[Threekiii/Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)
 
 ## 目录
 - [Awesome-Redteam](#awesome-redteam)
@@ -214,7 +213,9 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - Wapplyzer：Chrome插件 跨平台网站分析工具 https://github.com/AliasIO/Wappalyzer
 - TideFinger：提取了多个开源指纹识别工具的规则库并进行了规则重组 https://github.com/TideSec/TideFinger
+- fingerprint：各种工具指纹收集分享 https://github.com/r0eXpeR/fingerprint
 - Dismap：tcp/udp/tls 协议指纹和 4500+ Web 指纹规则 https://github.com/zhzyker/dismap
+- Finger：一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具 https://github.com/EASY233/Finger
 - 御剑web指纹识别程序：https://www.webshell.cc/4697.html
 - 云悉指纹识别：http://www.yunsee.cn/
 
@@ -269,8 +270,9 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 ### 开源文库
 
-- Vulhub：https://vulhub.org/
-- PeiQi：http://wiki.peiqi.tech/
+- cve：收录了几乎所有公开的CVE https://github.com/trickest/cve
+- Vulhub：基于Docker的漏洞复现环境 https://vulhub.org/
+- PeiQi：面向网络安全从业者的知识文库 http://wiki.peiqi.tech/
 - 乌云镜像：http://wooyun.2xss.cc/
 - 未授权访问漏洞总结：http://luckyzmj.cn/posts/15dff4d3.html
 
@@ -335,7 +337,9 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### 免杀
 
 - GolangBypassAV：https://github.com/safe6Sec/GolangBypassAV
-- BypassAntiVirus：远控免杀系列文章及配套工具 https://github.com/TideSec/BypassAntiVirus
+- BypassAntiVirus：远控免杀系列文章及配套工具 https://github.com/TideSec/BypassAntiVirus 
+  - BypassAntiVirus2022年部分免杀复现：[Threekiii/Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E5%85%8D%E6%9D%80.md)
+
 - AV_Evasion_Tool：掩日 - 适用于红队的综合免杀工具 https://github.com/1y0n/AV_Evasion_Tool
 - 杀软比对：https://www.shentoushi.top/av/av.php
 
