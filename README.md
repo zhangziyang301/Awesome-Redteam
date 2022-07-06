@@ -187,6 +187,13 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Webpage Test：https://www.webpagetest.org/
 - DNS Check：https://dnscheck.pingdom.com/
 
+#### IP反查域名
+
+- IP138 https://site.ip138.com/
+- 微步在线  https://x.threatbook.cn/
+
+- VirusTotal [https://www.virustotal.com/](https://www.virustotal.com/gui/home/upload)
+
 #### Whois注册信息反查
 
 - 站长之家 Whois：https://whois.chinaz.com/
