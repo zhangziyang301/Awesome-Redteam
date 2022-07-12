@@ -1,5 +1,9 @@
 # 常见WAF拦截页面速查
 
+**【免责声明】本仓库所涉及的技术、思路和工具仅供安全技术研究，任何人不得将其用于非授权渗透测试，不得将其用于非法用途和盈利，否则后果自行承担。**
+
+> 仅代表2022年WAF拦截页面结果
+
 - IDC 2021中国Web应用防火墙（硬件）市场份额 
 
   - https://www.idc.com/research/viewtoc.jsp?containerId=CHC48499122
@@ -36,6 +40,8 @@
 
 ### 阿里云-阿里云盾
 
+![image-20220712090631804](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120906874.png)
+
 ![image-20220711152534189](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111525260.png)
 
 ### 腾讯云-腾讯T-Sec Web 应用防火墙
@@ -50,25 +56,21 @@
 
 ![image-20220711162449027](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111726491.png)
 
-瑞数信息-动态Web应用防火墙（River Safeplus）
+### 安全狗云御WEB应用防护系统
 
-百度云应用防火墙 WAF
-
-华为云-云防火墙 CFW
-
-安全狗云御WEB应用防护系统
-
-绿盟网站云防护
-
-启明星辰虚拟化WAF
-
-深信服云Web应用防火墙云WAF
+![image-20220712093802214](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120938282.png)
 
 ### 知道创宇-创宇盾Web应用防火墙
 
+![image-20220712095757108](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120957150.png)
+
+
+
 ![image-20220711173014186](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111730814.png)
 
-F5 分布式云 WAF
+### F5 分布式云 WAF
+
+![image-20220712091727673](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120917731.png)
 
 ### 奇安信网站卫士
 
@@ -81,6 +83,16 @@ F5 分布式云 WAF
 ### 网宿Web应用防火墙
 
 ![image-20220711172929266](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111729357.png)
+
+瑞数信息-动态Web应用防火墙（River Safeplus）
+
+百度云应用防火墙 WAF
+
+绿盟网站云防护
+
+启明星辰虚拟化WAF
+
+深信服云Web应用防火墙云WAF
 
 奇安信网神WEB应用安全云防护系统（安域）
 
@@ -101,15 +113,17 @@ F5 分布式云 WAF
 - [铱迅Web应用防护系统](https://www.yxlink.com/index_product_index.html)
 - [F5 Advanced WAF（API 安全 - 新一代 WAF）](https://www.f5.com.cn/products/security/advanced-waf)
 
-绿盟科技-绿盟Web应用防护系统
-
 ### 安恒信息-明御Web应用防火墙
 
 ![image-20220711162449027](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111625134.png)
 
-启明星辰集团-天清Web应用安全网关
+### 长亭科技-雷池（SafeLine） 下一代 Web 应用防火墙
 
-长亭科技-雷池（SafeLine） 下一代 Web 应用防火墙
+![image-20220712092500572](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120925627.png)
+
+绿盟科技-绿盟Web应用防护系统
+
+启明星辰集团-天清Web应用安全网关
 
 盛邦安全-Web应用防护系统（RayWAF）
 
@@ -130,5 +144,6 @@ F5 分布式云 WAF
 - [悬镜](https://www.xmirror.cn/)
 - [安骑士](https://help.aliyun.com/product/28449.html)
 
-### 安全狗
+### 网防G01
 
+![image-20220712095607837](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120956894.png)

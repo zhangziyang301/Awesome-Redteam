@@ -1,14 +1,18 @@
 # Awesome-Redteam
 
-**【免责声明】本仓库所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，否则后果自行承担。**
+**【免责声明】本仓库所涉及的技术、思路和工具仅供安全技术研究，任何人不得将其用于非授权渗透测试，不得将其用于非法用途和盈利，否则后果自行承担。**
 
 轻量化红队知识仓库，不定期更新。markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
 
-**攻防渗透常用命令（信息收集/漏洞挖掘/内网穿透/msf/cs）：**[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+**综合漏洞知识库：**[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
 
-**长期维护一个综合漏洞知识库（涵盖Vulhub、Peiqi、Edge、0sec、Wooyun等互联网公开漏洞库）：**[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
+**漏洞利用工具库：**[Threekiii/Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)
 
-**长期维护一个漏洞利用工具库（涵盖Vulhub等互联网公开漏洞库）：**[Threekiii/Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)
+## 快速导航
+
+- [攻防渗透常用命令](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+- [常见WAF拦截页面速查](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E5%B8%B8%E8%A7%81WAF%E6%8B%A6%E6%88%AA%E9%A1%B5%E9%9D%A2%E9%80%9F%E6%9F%A5.md)
+- [重要端口及服务速查](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E9%87%8D%E8%A6%81%E7%AB%AF%E5%8F%A3%E5%8F%8A%E6%9C%8D%E5%8A%A1%E9%80%9F%E6%9F%A5.md)
 
 ## 目录
 - [Awesome-Redteam](#awesome-redteam)
@@ -35,6 +39,7 @@
       - [TLS证书信息查询](#tls证书信息查询)
       - [IP地址段收集](#ip地址段收集)
     - [指纹识别](#指纹识别)
+    - [WAF识别](#WAF识别)
     - [扫描/爆破](#扫描爆破)
     - [爆破字典](#爆破字典)
     - [信息泄露](#信息泄露)
@@ -226,6 +231,10 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - 御剑web指纹识别程序：https://www.webshell.cc/4697.html
 - 云悉指纹识别：http://www.yunsee.cn/
 
+### WAF识别
+
+- identYwaf：WAF识别工具 https://github.com/stamparm/identYwaf
+
 ### 扫描/爆破
 
 - dirsearch：目录扫描/爆破 https://github.com/maurosoria/dirsearch
@@ -241,6 +250,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Dictionary-Of-Pentesting：渗透测试、SRC漏洞挖掘、爆破、Fuzzing等常用字典 https://github.com/insightglacier/Dictionary-Of-Pentesting
 - fuzzDicts：Web渗透Fuzz字典 https://github.com/TheKingOfDuck/fuzzDicts
 - PentesterSpecialDict：渗透测试工程师精简化字典 https://github.com/ppbibo/PentesterSpecialDict
+- fuzz：https://github.com/Bo0oM/fuzz.txt
 
 ### 信息泄露
 
@@ -431,6 +441,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - HaE：高亮标记与信息提取辅助型插件 https://github.com/gh0stkey/HaE
 - Log4j2Scan：Log4j主动扫描 https://github.com/whwlsfb/Log4j2Scan
+- RouteVulScan：检测脆弱路径 https://github.com/F6JO/RouteVulScan
 
 ### Chrome crx
 
