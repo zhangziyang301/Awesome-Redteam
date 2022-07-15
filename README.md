@@ -16,13 +16,14 @@
 
 ## 目录
 - [Awesome-Redteam](#awesome-redteam)
+  - [快速导航](#快速导航)
   - [目录](#目录)
   - [漏洞知识库](#漏洞知识库)
   - [项目导航](#项目导航)
-    - [速查文档-CheatSheets](#速查文档-CheatSheets)
-    - [一些代码-Scripts](#一些代码-Scripts)
-    - [攻防知识-Tips](#攻防知识-Tips)
-    - [服务搭建-Docs](#服务搭建-Docs)
+    - [速查文档-CheatSheets](#速查文档-cheatsheets)
+    - [一些代码-Scripts](#一些代码-scripts)
+    - [攻防知识-Tips](#攻防知识-tips)
+    - [服务搭建-Docs](#服务搭建-docs)
   - [开源导航](#开源导航)
     - [编解码/加解密](#编解码加解密)
     - [实用工具](#实用工具)
@@ -34,12 +35,13 @@
     - [IP/域名](#ip域名)
       - [确认真实IP地址](#确认真实ip地址)
       - [多个地点Ping服务器](#多个地点ping服务器)
+      - [IP反查域名](#ip反查域名)
       - [Whois注册信息反查](#whois注册信息反查)
       - [DNS数据聚合查询](#dns数据聚合查询)
       - [TLS证书信息查询](#tls证书信息查询)
       - [IP地址段收集](#ip地址段收集)
     - [指纹识别](#指纹识别)
-    - [WAF识别](#WAF识别)
+    - [WAF识别](#waf识别)
     - [扫描/爆破](#扫描爆破)
     - [爆破字典](#爆破字典)
     - [信息泄露](#信息泄露)
@@ -50,8 +52,14 @@
     - [SRC](#src)
     - [开源文库](#开源文库)
     - [靶机平台](#靶机平台)
-    - [漏洞利用](#漏洞利用)
-    - [DNSlog](#dnslog)
+  - [漏洞利用](#漏洞利用)
+    - [综合POC](#综合poc)
+    - [综合工具](#综合工具)
+    - [辅助工具](#辅助工具)
+    - [操作系统](#操作系统)
+    - [中间件](#中间件)
+    - [CMS](#cms)
+    - [OA](#oa)
     - [Bypass](#bypass)
   - [内网渗透](#内网渗透)
     - [Payloads](#payloads)
@@ -59,6 +67,7 @@
     - [Bypass](#bypass-1)
     - [免杀](#免杀)
     - [内网穿透](#内网穿透)
+    - [密码提取](#密码提取)
     - [开源蜜罐](#开源蜜罐)
     - [容器安全](#容器安全)
     - [其他](#其他-1)
@@ -71,12 +80,11 @@
     - [CTF平台](#ctf平台)
   - [工具赋能](#工具赋能)
     - [Metasploit](#metasploit)
-    - [Yakit](#Yakit)
+    - [Yakit](#yakit)
     - [Cobaltstrike](#cobaltstrike)
     - [Burpsuite](#burpsuite)
     - [Chrome crx](#chrome-crx)
-    - [Xray](#xray)
-    - [Zsh](#zsh)
+  - [其他优秀项目](#其他优秀项目)
   - [使用姿势](#使用姿势)
     - [如何在Windows上使用alias](#如何在windows上使用alias)
     - [如何使用浏览器快速查看markdown文档](#如何使用浏览器快速查看markdown文档)
@@ -84,9 +92,7 @@
 
 ## 漏洞知识库
 
-Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库。
-
-可以通过docsify自定义部署，也可以通过docker-compose快速部署。
+Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库。通过docsify自定义部署，或docker-compose快速部署。
 
 - Vulnerability Wiki：[Click Here](https://github.com/Threekiii/Vulnerability-Wiki)
 
@@ -109,6 +115,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - ShellcodeWrapper：[Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/ShellcodeWrapper) 
 - AntivirusScanner：杀软进程检测脚本 [Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/AntivirusScanner) 
+- **runtime-exec-payloads.html：java.lang.Runtime.exec() Payloads生成 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/runtime-exec-payloads.html)** 
 
 ### 攻防知识-Tips
 
@@ -118,13 +125,13 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 ### 服务搭建-Docs
 
-- DNS log平台搭建：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/DNS%20log%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA.md) 
+- **DNS log平台搭建：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/DNS%20log%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA.md)** 
 
 ## 开源导航
 
 ### 编解码/加解密
 
-- CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef
+- **CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef**
 - OK Tools在线工具：https://github.com/wangyiwy/oktools
 - CTF在线工具：http://www.hiencode.com/
 - Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
@@ -134,7 +141,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### 实用工具
 
 - Explain Shell：Shell命令解析 https://explainshell.com/
-- 反弹Shell生成：可本地部署 https://github.com/0dayCTF/reverse-shell-generator
+- **反弹Shell生成：可本地部署 https://github.com/0dayCTF/reverse-shell-generator**
 - 在线正则表达式：https://c.runoob.com/front-end/854/
 - Webshell Chop：https://webshellchop.chaitin.cn/demo/
 - XSS Chop：https://xsschop.chaitin.cn/demo/
@@ -249,12 +256,16 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - Dictionary-Of-Pentesting：渗透测试、SRC漏洞挖掘、爆破、Fuzzing等常用字典 https://github.com/insightglacier/Dictionary-Of-Pentesting
 - fuzzDicts：Web渗透Fuzz字典 https://github.com/TheKingOfDuck/fuzzDicts
+- Web-Fuzzing-Box：Web 模糊测试字典与Payloads https://github.com/gh0stkey/Web-Fuzzing-Box
 - PentesterSpecialDict：渗透测试工程师精简化字典 https://github.com/ppbibo/PentesterSpecialDict
 - fuzz：https://github.com/Bo0oM/fuzz.txt
+- SuperWordlist：弱口令字典 https://github.com/fuzz-security/SuperWordlist
+- top25-parameter：top25参数字典 https://github.com/lutfumertceylan/top25-parameter
 
 ### 信息泄露
 
 - GitHack：.git泄露利用脚本 https://github.com/lijiejie/GitHack
+- ds_store_exp：.DS_Store 文件泄漏利用脚本 https://github.com/lijiejie/ds_store_exp
 - Hawkeye：GitHub 泄露监控系统 https://github.com/0xbug/Hawkeye 
 
 ### 电子邮箱
@@ -269,15 +280,16 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Kunyu：https://github.com/knownsec/Kunyu
 - OneForAll：https://github.com/shmilylty/OneForAll
 - ShuiZe：https://github.com/0x727/ShuiZe_0x727
-- Fofa Viewer：https://github.com/wgpsec/fofa_viewer
+- **Fofa Viewer：https://github.com/wgpsec/fofa_viewer**
 
 ### 内网信息收集
 
 - fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
-- hping3：端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping
+- **hping3：端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping**
 - EHole：红队重点攻击系统指纹探测工具 https://github.com/EdgeSecurityTeam/EHole
 - ENScan_GO：国内企业信息收集 https://github.com/wgpsec/ENScan_GO
 - Ladon：用于大型网络渗透的多线程插件化综合扫描工具 https://github.com/k8gege/Ladon
+- HackBrowserData：浏览器数据导出工具 https://github.com/moonD4rk/HackBrowserData
 
 ## 漏洞研究
 
@@ -290,6 +302,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - cve：收录了几乎所有公开的CVE https://github.com/trickest/cve
 - Vulhub：基于Docker的漏洞复现环境 https://vulhub.org/
 - PeiQi：面向网络安全从业者的知识文库 http://wiki.peiqi.tech/
+- Vulnerability：棱角社区公布漏洞 https://github.com/EdgeSecurityTeam/Vulnerability
 - 乌云镜像：http://wooyun.2xss.cc/
 - 未授权访问漏洞总结：http://luckyzmj.cn/posts/15dff4d3.html
 
@@ -304,25 +317,58 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Upload-labs：上传漏洞 https://github.com/c0ny1/upload-labs
 - Vulstudy：docker快速搭建共17个漏洞靶场 https://github.com/c0ny1/vulstudy
 
-### 漏洞利用
+## 漏洞利用
+
+### 综合POC
 
 - Exploit Database：https://www.exploit-db.com/
-- Windows-Exploit-Suggester：https://github.com/AonCyberLabs/Windows-Exploit-Suggester
-- Linux_Exploit_Suggester：https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
-- Vulnerability：https://github.com/EdgeSecurityTeam/Vulnerability
+
 - POChouse：https://github.com/DawnFlame/POChouse
 - Some-PoC-oR-ExP：各种漏洞PoC、ExP的收集或编写 https://github.com/coffeehb/Some-PoC-oR-ExP
 - Penetration_Testing_POC：https://github.com/Mr-xn/Penetration_Testing_POC
-- CMS-Hunter：CMS漏洞测试用例集合 https://github.com/SecWiki/CMS-Hunter
+
+### 综合工具
+
+- Xray：安全评估工具 https://github.com/chaitin/xray
 - Vulmap：漏洞扫描和验证工具 https://github.com/zhzyker/vulmap
+- Artillery：插件化 JAVA 漏洞扫描器 https://github.com/Weik1/Artillery
+- Aazhen-v3.1：JavaFX图形化漏洞扫描工具 https://github.com/zangcc/Aazhen-v3.1
+
+### 辅助工具
+
 - ysoserial：Java反序列化 https://github.com/frohoff/ysoserial
-
-### DNSlog
-
 - Ceye DNS：在线平台 http://ceye.io/
 - Dnslog：在线平台 http://dnslog.cn/
 - Fuzz.Red：在线平台 https://github.com/AlphabugX/Alphalog
-- DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO
+- **DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO**
+
+### 操作系统
+
+- Windows-Exploit-Suggester：https://github.com/AonCyberLabs/Windows-Exploit-Suggester
+- Linux_Exploit_Suggester：https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
+
+### 中间件
+
+- shiro_attack：https://github.com/j1anFen/shiro_attack
+- shiro_rce_tool：https://github.com/wyzxxz/shiro_rce_tool
+- ShiroExploit：https://github.com/feihong-cs/ShiroExploit-Deprecated
+- ShiroExp：https://github.com/safe6Sec/ShiroExp
+- Struts2VulsTools：https://github.com/shack2/Struts2VulsTools
+- ThinkphpGUI：https://github.com/Lotus6/ThinkphpGUI
+- thinkphp_gui_tools：https://github.com/bewhale/thinkphp_gui_tools
+- WeblogicScan：https://github.com/dr0op/WeblogicScan
+- weblogicScanner：https://github.com/0xn0ne/weblogicScanner
+- weblogic-framework：https://github.com/sv3nbeast/weblogic-framework
+- SpringBootVulExploit：https://github.com/LandGrey/SpringBootVulExploit
+
+### CMS
+
+- CMS-Hunter：CMS漏洞测试用例集合 https://github.com/SecWiki/CMS-Hunter
+- 若依CMS https://github.com/thelostworldFree/Ruoyi-All
+
+### OA
+
+- OA综合 https://github.com/achuna33/MYExploit
 
 ### Bypass
 
@@ -339,6 +385,8 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### WebShell
 
 - Webshell收集项目：https://github.com/tennc/webshell
+- TomcatMemShell：Tomcat内存马 https://github.com/ce-automne/TomcatMemShell
+- wsMemShell：WebSocket 内存马 https://github.com/veo/wsMemShell
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
   - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行
   - Behinder2：windows10 + java 1.8.0_91
@@ -358,6 +406,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
   - BypassAntiVirus2022年部分免杀复现：[Threekiii/Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E5%85%8D%E6%9D%80.md)
 
 - AV_Evasion_Tool：掩日 - 适用于红队的综合免杀工具 https://github.com/1y0n/AV_Evasion_Tool
+- shellcodeloader：Windows平台的shellcode免杀加载器 https://github.com/knownsec/shellcodeloader
 - 杀软比对：https://www.shentoushi.top/av/av.php
 
 ### 内网穿透
@@ -367,6 +416,10 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Neo-reGeorg：tunnel快速部署 https://github.com/L-codes/Neo-reGeorg
 - Proxifier：windows代理工具 https://www.proxifier.com/
 - Proxychains：kali代理工具 https://github.com/haad/proxychains
+
+### 密码提取
+
+- Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
 
 ### 开源蜜罐
 
@@ -379,8 +432,6 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 ### 其他
 
-- The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
-- Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
 - Impacket：其中的psexec.py通过用户名和密码远程连接到目标服务器 https://github.com/SecureAuthCorp/impacket
 - PsTools：PsExec.exe功能同Impacket中的psexec.py https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
 
@@ -440,8 +491,8 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### Burpsuite
 
 - HaE：高亮标记与信息提取辅助型插件 https://github.com/gh0stkey/HaE
-- Log4j2Scan：Log4j主动扫描 https://github.com/whwlsfb/Log4j2Scan
-- RouteVulScan：检测脆弱路径 https://github.com/F6JO/RouteVulScan
+- Log4j2Scan：Log4j主动扫描插件 https://github.com/whwlsfb/Log4j2Scan
+- RouteVulScan：检测脆弱路径插件 https://github.com/F6JO/RouteVulScan
 
 ### Chrome crx
 
@@ -452,13 +503,12 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Disable JavaScript：禁用JavaScript绕过弹窗 https://github.com/dpacassi/disable-javascript
 - Hack Bar：渗透神器No.1 https://github.com/0140454/hackbar
 
-### Xray
-
-- Xray：安全评估工具 https://github.com/chaitin/xray
-
-### Zsh
+## 其他优秀项目
 
 - oh my zsh：命令行工具集 好用 推荐 https://github.com/ohmyzsh/ohmyzsh
+- The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
+- PySimpleGUI：https://github.com/PySimpleGUI/PySimpleGUI
+- f8x：红/蓝队环境自动化部署工具 https://github.com/ffffffff0x/f8x
 
 ## 使用姿势
 
