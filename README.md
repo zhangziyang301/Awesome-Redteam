@@ -2,23 +2,17 @@
 
 **【免责声明】本仓库所涉及的技术、思路和工具仅供安全技术研究，任何人不得将其用于非授权渗透测试，不得将其用于非法用途和盈利，否则后果自行承担。**
 
-轻量化红队知识仓库，不定期更新。markdown文档与Linux alias命令或Windows doskey命令联动，可实现终端快捷查询。
-
-**综合漏洞知识库：**[Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)
-
-**漏洞利用工具库：**[Threekiii/Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)
-
 ## 快速导航
 
 - [攻防渗透常用命令](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
-- [常见WAF拦截页面速查](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E5%B8%B8%E8%A7%81WAF%E6%8B%A6%E6%88%AA%E9%A1%B5%E9%9D%A2%E9%80%9F%E6%9F%A5.md)
 - [重要端口及服务速查](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E9%87%8D%E8%A6%81%E7%AB%AF%E5%8F%A3%E5%8F%8A%E6%9C%8D%E5%8A%A1%E9%80%9F%E6%9F%A5.md)
+- [综合漏洞知识库](https://github.com/Threekiii/Vulnerability-Wiki)
+- [漏洞利用工具库](https://github.com/Threekiii/Awesome-Exploit)
 
 ## 目录
 - [Awesome-Redteam](#awesome-redteam)
   - [快速导航](#快速导航)
   - [目录](#目录)
-  - [漏洞知识库](#漏洞知识库)
   - [项目导航](#项目导航)
     - [速查文档-CheatSheets](#速查文档-cheatsheets)
     - [一些代码-Scripts](#一些代码-scripts)
@@ -89,20 +83,12 @@
     - [如何在Windows上使用alias](#如何在windows上使用alias)
     - [如何使用浏览器快速查看markdown文档](#如何使用浏览器快速查看markdown文档)
 
-
-## 漏洞知识库
-
-Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库。通过docsify自定义部署，或docker-compose快速部署。
-
-- Vulnerability Wiki：[Click Here](https://github.com/Threekiii/Vulnerability-Wiki)
-
-![image-20220513114641254](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205131146422.png)
-
 ## 项目导航
 
 ### 速查文档-CheatSheets
 
 - 攻防渗透常用命令速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
+- 常见WAF拦截页面速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E5%B8%B8%E8%A7%81WAF%E6%8B%A6%E6%88%AA%E9%A1%B5%E9%9D%A2%E9%80%9F%E6%9F%A5.md)
 - 反弹shell命令速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E5%8F%8D%E5%BC%B9shell%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 - 重要端口及服务速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E9%87%8D%E8%A6%81%E7%AB%AF%E5%8F%A3%E5%8F%8A%E6%9C%8D%E5%8A%A1%E9%80%9F%E6%9F%A5.md)
 - HTTP状态码速查：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/HTTP%E7%8A%B6%E6%80%81%E7%A0%81%E9%80%9F%E6%9F%A5.md)
@@ -115,7 +101,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 - ShellcodeWrapper：[Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/ShellcodeWrapper) 
 - AntivirusScanner：杀软进程检测脚本 [Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/AntivirusScanner) 
-- **runtime-exec-payloads.html：java.lang.Runtime.exec() Payloads生成 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/runtime-exec-payloads.html)** 
+- runtime-exec-payloads.html：java.lang.Runtime.exec() Payloads生成 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/runtime-exec-payloads.html) 
 
 ### 攻防知识-Tips
 
@@ -125,13 +111,13 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 
 ### 服务搭建-Docs
 
-- **DNS log平台搭建：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/DNS%20log%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA.md)** 
+- DNS log平台搭建：[Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/docs/DNS%20log%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA.md) 
 
 ## 开源导航
 
 ### 编解码/加解密
 
-- **CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef**
+- CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef
 - OK Tools在线工具：https://github.com/wangyiwy/oktools
 - CTF在线工具：http://www.hiencode.com/
 - Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
@@ -141,7 +127,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 ### 实用工具
 
 - Explain Shell：Shell命令解析 https://explainshell.com/
-- **反弹Shell生成：可本地部署 https://github.com/0dayCTF/reverse-shell-generator**
+- 反弹Shell生成：可本地部署 https://github.com/0dayCTF/reverse-shell-generator
 - 在线正则表达式：https://c.runoob.com/front-end/854/
 - Webshell Chop：https://webshellchop.chaitin.cn/demo/
 - XSS Chop：https://xsschop.chaitin.cn/demo/
@@ -280,12 +266,12 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Kunyu：https://github.com/knownsec/Kunyu
 - OneForAll：https://github.com/shmilylty/OneForAll
 - ShuiZe：https://github.com/0x727/ShuiZe_0x727
-- **Fofa Viewer：https://github.com/wgpsec/fofa_viewer**
+- Fofa Viewer：https://github.com/wgpsec/fofa_viewer
 
 ### 内网信息收集
 
 - fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
-- **hping3：端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping**
+- hping3：端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping
 - EHole：红队重点攻击系统指纹探测工具 https://github.com/EdgeSecurityTeam/EHole
 - ENScan_GO：国内企业信息收集 https://github.com/wgpsec/ENScan_GO
 - Ladon：用于大型网络渗透的多线程插件化综合扫描工具 https://github.com/k8gege/Ladon
@@ -316,6 +302,7 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Xss-labs：XSS注入 https://github.com/do0dl3/xss-labs
 - Upload-labs：上传漏洞 https://github.com/c0ny1/upload-labs
 - Vulstudy：docker快速搭建共17个漏洞靶场 https://github.com/c0ny1/vulstudy
+- Vulfocus：漏洞集成平台 https://github.com/fofapro/vulfocus
 
 ## 漏洞利用
 
@@ -326,6 +313,8 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - POChouse：https://github.com/DawnFlame/POChouse
 - Some-PoC-oR-ExP：各种漏洞PoC、ExP的收集或编写 https://github.com/coffeehb/Some-PoC-oR-ExP
 - Penetration_Testing_POC：https://github.com/Mr-xn/Penetration_Testing_POC
+- PoC-in-GitHub：https://github.com/nomi-sec/PoC-in-GitHub
+- 0day：https://github.com/helloexp/0day
 
 ### 综合工具
 
@@ -340,7 +329,9 @@ Vulnerability Wiki，一个基于docsify开发的漏洞知识库项目，集成�
 - Ceye DNS：在线平台 http://ceye.io/
 - Dnslog：在线平台 http://dnslog.cn/
 - Fuzz.Red：在线平台 https://github.com/AlphabugX/Alphalog
-- **DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO**
+- DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO
+- JNDI-Injection-Exploit：https://github.com/welk1n/JNDI-Injection-Exploit
+- JNDIExploit：功能更强 冰蝎内存马 https://github.com/WhiteHSBG/JNDIExploit
 
 ### 操作系统
 
