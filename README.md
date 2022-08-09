@@ -6,8 +6,6 @@
 
 - [攻防渗透常用命令](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E6%94%BB%E9%98%B2%E6%B8%97%E9%80%8F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md)
 - [重要端口及服务速查](https://github.com/Threekiii/Awesome-Redteam/blob/master/cheatsheets/%E9%87%8D%E8%A6%81%E7%AB%AF%E5%8F%A3%E5%8F%8A%E6%9C%8D%E5%8A%A1%E9%80%9F%E6%9F%A5.md)
-- [综合漏洞知识库](https://github.com/Threekiii/Vulnerability-Wiki)
-- [漏洞利用工具库](https://github.com/Threekiii/Awesome-Exploit)
 
 ## 目录
 - [Awesome-Redteam](#awesome-redteam)
@@ -134,6 +132,7 @@
 - WebShell查杀：https://n.shellpub.com/
 - HTML5 Security Cheatsheet：XSS攻击向量学习/参考 https://html5sec.org/
 - 在线代码格式标准化：http://web.chacuo.net/formatsh
+- 免费接受手机验证码：https://www.supercloudsms.com/en/ 
 
 ### 威胁情报
 
@@ -259,6 +258,7 @@
 - Hunter：Chrome插件 查找网页暴露邮箱 https://hunter.io/chrome
 - Skymem：邮箱地址搜索 https://www.skymem.info/
 - 搜邮箱：邮箱域名搜索 https://souyouxiang.com/find-contact/
+- gophish：钓鱼邮件 https://github.com/gophish/gophish
 
 ### 综合信息收集
 
@@ -309,9 +309,9 @@
 ### 综合POC
 
 - Exploit Database：https://www.exploit-db.com/
-
 - POChouse：https://github.com/DawnFlame/POChouse
 - Some-PoC-oR-ExP：各种漏洞PoC、ExP的收集或编写 https://github.com/coffeehb/Some-PoC-oR-ExP
+- Library-POC：基于Pocsuite3、goby编写的漏洞poc&exp存档 https://github.com/luck-ying/Library-POC
 - Penetration_Testing_POC：https://github.com/Mr-xn/Penetration_Testing_POC
 - PoC-in-GitHub：https://github.com/nomi-sec/PoC-in-GitHub
 - 0day：https://github.com/helloexp/0day
@@ -344,6 +344,7 @@
 - shiro_rce_tool：https://github.com/wyzxxz/shiro_rce_tool
 - ShiroExploit：https://github.com/feihong-cs/ShiroExploit-Deprecated
 - ShiroExp：https://github.com/safe6Sec/ShiroExp
+- shiro_key：shiro key 收集 目前 1k+ https://github.com/yanm1e/shiro_key
 - Struts2VulsTools：https://github.com/shack2/Struts2VulsTools
 - ThinkphpGUI：https://github.com/Lotus6/ThinkphpGUI
 - thinkphp_gui_tools：https://github.com/bewhale/thinkphp_gui_tools
@@ -379,7 +380,8 @@
 - TomcatMemShell：Tomcat内存马 https://github.com/ce-automne/TomcatMemShell
 - wsMemShell：WebSocket 内存马 https://github.com/veo/wsMemShell
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
-  - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行
+  - Behinder4已经发布
+  - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行，Behinder3代理经测试php无法成功穿透，jsp可以成功穿透
   - Behinder2：windows10 + java 1.8.0_91
 - Godzilla 哥斯拉：https://github.com/BeichenDream/Godzilla
 - Skyscorpion：https://github.com/shack2/skyscorpion
@@ -392,6 +394,7 @@
 
 ### 免杀
 
+- bypassAV：免杀shellcode加载器 过火绒不过360 https://github.com/pureqh/bypassAV
 - GolangBypassAV：https://github.com/safe6Sec/GolangBypassAV
 - BypassAntiVirus：远控免杀系列文章及配套工具 https://github.com/TideSec/BypassAntiVirus 
   - BypassAntiVirus2022年部分免杀复现：[Threekiii/Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E5%85%8D%E6%9D%80.md)
