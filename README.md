@@ -69,7 +69,8 @@
     - [大数据](#大数据)
     - [逆向分析](#逆向分析)
   - [CTF](#ctf)
-    - [CTF平台](#ctf平台)
+    - [CTF平台](#CTF平台)
+    - [CTF工具](#CTF工具)
   - [工具赋能](#工具赋能)
     - [Metasploit](#metasploit)
     - [Yakit](#yakit)
@@ -460,9 +461,14 @@
 
 - CTF Wiki：https://ctf-wiki.org/
 - CTF Time：https://ctftime.org/
-- CTF Tools：https://github.com/zardus/ctf-tools
 - 攻防世界：https://adworld.xctf.org.cn/
 - Hacker 101：https://www.hacker101.com/
+
+### CTF工具
+
+- CTF Tools：https://github.com/zardus/ctf-tools
+- pwntools：https://github.com/Gallopsled/pwntools
+- stegsolve：图片隐写 http://www.caesum.com/handbook/stego.htm
 
 ## 工具赋能
 
@@ -503,6 +509,7 @@
 - The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
 - PySimpleGUI：https://github.com/PySimpleGUI/PySimpleGUI
 - f8x：红/蓝队环境自动化部署工具 https://github.com/ffffffff0x/f8x
+- mate-translate：一个翻译神器 https://gikken.co/mate-translate/
 
 ## 使用姿势
 
