@@ -119,7 +119,9 @@
 - CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef
 - OK Tools在线工具：https://github.com/wangyiwy/oktools
 - CTF在线工具：http://www.hiencode.com/
+- GB2312在线解密：http://code.mcdvisa.com/
 - Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
+- Unicode在线查询：https://www.compart.com/en/unicode/
 - 在线MD5 Hash破解：https://www.somd5.com/
 - XSSEE：在线综合编解码工具 https://evilcos.me/lab/xssee/
 
@@ -463,12 +465,13 @@
 - CTF Time：https://ctftime.org/
 - 攻防世界：https://adworld.xctf.org.cn/
 - Hacker 101：https://www.hacker101.com/
+- Cryptopals：密码学练习题目 https://cryptopals.com/
 
 ### CTF工具
 
 - CTF Tools：https://github.com/zardus/ctf-tools
-- pwntools：https://github.com/Gallopsled/pwntools
-- stegsolve：图片隐写 http://www.caesum.com/handbook/stego.htm
+- Pwntools：https://github.com/Gallopsled/pwntools
+- Stegsolve：图片隐写 http://www.caesum.com/handbook/stego.htm
 
 ## 工具赋能
 
