@@ -17,7 +17,8 @@
     - [攻防知识-Tips](#攻防知识-tips)
     - [服务搭建-Docs](#服务搭建-docs)
   - [开源导航](#开源导航)
-    - [编解码/加解密](#编解码加解密)
+    - [编解码/加解密综合](#编解码加解密综合)
+    - [常见编解码/加解密](#常见编解码/加解密)
     - [实用工具](#实用工具)
     - [威胁情报](#威胁情报)
     - [网络空间搜索](#网络空间搜索)
@@ -68,9 +69,6 @@
     - [云服务](#云服务)
     - [大数据](#大数据)
     - [逆向分析](#逆向分析)
-  - [CTF](#ctf)
-    - [CTF平台](#CTF平台)
-    - [CTF工具](#CTF工具)
   - [工具赋能](#工具赋能)
     - [Metasploit](#metasploit)
     - [Yakit](#yakit)
@@ -114,16 +112,23 @@
 
 ## 开源导航
 
-### 编解码/加解密
+### 编解码/加解密综合
 
 - CyberChef：编解码及加密，可本地部署 https://github.com/gchq/CyberChef
 - OK Tools在线工具：https://github.com/wangyiwy/oktools
 - CTF在线工具：http://www.hiencode.com/
-- GB2312在线解密：http://code.mcdvisa.com/
-- Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
-- Unicode在线查询：https://www.compart.com/en/unicode/
-- 在线MD5 Hash破解：https://www.somd5.com/
 - XSSEE：在线综合编解码工具 https://evilcos.me/lab/xssee/
+- MeTools：在线综合编解码工具 http://www.metools.info/code/quotedprintable231.html
+
+### 常见编解码/加解密
+
+- MD5 Hash：https://www.somd5.com/
+- GB2312：http://code.mcdvisa.com/
+- Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
+- Unicode：https://www.compart.com/en/unicode/
+- UUencode：http://web.chacuo.net/charsetuuencode
+- Escape/Unescape：https://tool.chinaz.com/tools/escape.aspx
+- HTML实体编码：https://zh.rakko.tools/tools/21/
 
 ### 实用工具
 
@@ -456,22 +461,6 @@
 - PEiD：查壳工具 https://www.aldeid.com/wiki/PEiD
 - Py2exe：Python打包工具 https://www.py2exe.org/
 - PyInstaller：Python打包工具 https://github.com/pyinstaller/pyinstaller
-
-## CTF
-
-### CTF平台
-
-- CTF Wiki：https://ctf-wiki.org/
-- CTF Time：https://ctftime.org/
-- 攻防世界：https://adworld.xctf.org.cn/
-- Hacker 101：https://www.hacker101.com/
-- Cryptopals：密码学练习题目 https://cryptopals.com/
-
-### CTF工具
-
-- CTF Tools：https://github.com/zardus/ctf-tools
-- Pwntools：https://github.com/Gallopsled/pwntools
-- Stegsolve：图片隐写 http://www.caesum.com/handbook/stego.htm
 
 ## 工具赋能
 
