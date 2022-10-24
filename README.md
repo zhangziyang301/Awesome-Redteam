@@ -76,6 +76,7 @@
     - [Burpsuite](#burpsuite)
     - [Chrome crx](#chrome-crx)
   - [其他优秀项目](#其他优秀项目)
+  - [先mark待测试项目](#先mark待测试项目)
   - [使用姿势](#使用姿势)
     - [如何在Windows上使用alias](#如何在windows上使用alias)
     - [如何使用浏览器快速查看markdown文档](#如何使用浏览器快速查看markdown文档)
@@ -408,10 +409,10 @@
 - GolangBypassAV：https://github.com/safe6Sec/GolangBypassAV
 - BypassAntiVirus：远控免杀系列文章及配套工具 https://github.com/TideSec/BypassAntiVirus 
   - BypassAntiVirus2022年部分免杀复现：[Threekiii/Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam/blob/master/tips/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E5%85%8D%E6%9D%80.md)
-
 - AV_Evasion_Tool：掩日 - 适用于红队的综合免杀工具 https://github.com/1y0n/AV_Evasion_Tool
 - shellcodeloader：Windows平台的shellcode免杀加载器 https://github.com/knownsec/shellcodeloader
 - 杀软比对：https://www.shentoushi.top/av/av.php
+- 在线免杀：免杀方式为原生webshell随机字符修改、Java反射、垃圾字符填充、函数名称变形 http://bypass.tidesec.com/web/
 
 ### 内网穿透
 
@@ -510,7 +511,15 @@
 - The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
 - PySimpleGUI：https://github.com/PySimpleGUI/PySimpleGUI
 - f8x：红/蓝队环境自动化部署工具 https://github.com/ffffffff0x/f8x
-- mate-translate：一个翻译神器 https://gikken.co/mate-translate/
+- mate-translate：一个翻译神器 https://gikken.co/mate-translate
+
+## 先mark待测试项目
+
+- AsamF：集成多个网络资产测绘平台的一站式企业信息资产收集工具 https://github.com/Kento-Sec/AsamF
+
+- ThunderSearch：支持Fofa、Zoomeye、360Quake的GUI界面的信息搜集工具 https://github.com/xzajyjs/ThunderSearch
+
+  
 
 ## 使用姿势
 
