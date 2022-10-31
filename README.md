@@ -60,7 +60,7 @@
     - [Bypass](#bypass-1)
     - [免杀](#免杀)
     - [内网穿透](#内网穿透)
-    - [密码提取](#密码提取)
+    - [密码获取](#密码获取)
     - [开源蜜罐](#开源蜜罐)
     - [容器安全](#容器安全)
     - [其他](#其他-1)
@@ -126,6 +126,7 @@
 ### 常见编解码/加解密
 
 - MD5 Hash：https://www.somd5.com/
+- CMD5：https://www.cmd5.com/
 - GB2312：http://code.mcdvisa.com/
 - Unicode字符表：https://www.52unicode.com/enclosed-alphanumerics-zifu
 - Unicode：https://www.compart.com/en/unicode/
@@ -136,7 +137,14 @@
 ### 实用工具
 
 - Explain Shell：Shell命令解析 https://explainshell.com/
-- 反弹Shell生成：可本地部署 https://github.com/0dayCTF/reverse-shell-generator
+- 反弹Shell生成：
+  - 本地部署项目 https://github.com/0dayCTF/reverse-shell-generator
+  - 棱角安全在线 https://forum.ywhack.com/reverse-shell/
+
+- 文件下载命令：
+  - 本地部署项目 https://github.com/r0eXpeR/File-Download-Generator
+  - 棱角安全在线 https://forum.ywhack.com/bountytips.php?tools
+
 - 在线正则表达式：https://c.runoob.com/front-end/854/
 - Webshell Chop：https://webshellchop.chaitin.cn/demo/
 - XSS Chop：https://xsschop.chaitin.cn/demo/
@@ -168,6 +176,7 @@
 
 ### 公开知识库
 
+- 棱角社区工具集整理：https://forum.ywhack.com/bountytips.php?tools
 - 零组文库：零组已停运，非官方 https://0-wiki.com/
 - 先知社区：https://xz.aliyun.com/
 - 狼组公开知识库：https://wiki.wgpsec.org/
@@ -422,8 +431,9 @@
 - Proxifier：windows代理工具 https://www.proxifier.com/
 - Proxychains：kali代理工具 https://github.com/haad/proxychains
 
-### 密码提取
+### 密码获取
 
+- 密码猜解：猜测目标可能使用的密码 https://www.hacked.com.cn/pass.html
 - Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
 
 ### 开源蜜罐
