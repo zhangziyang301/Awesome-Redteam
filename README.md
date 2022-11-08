@@ -430,6 +430,9 @@
 - Neo-reGeorg：tunnel快速部署 https://github.com/L-codes/Neo-reGeorg
 - Proxifier：windows代理工具 https://www.proxifier.com/
 - Proxychains：kali代理工具 https://github.com/haad/proxychains
+- iodine：dns隧道 https://github.com/yarrick/iodine
+- dnscat2：dns隧道 https://github.com/iagox86/dnscat2
+- icmpsh：icmp隧道 https://github.com/bdamele/icmpsh
 
 ### 密码获取
 
@@ -522,6 +525,7 @@
 - PySimpleGUI：https://github.com/PySimpleGUI/PySimpleGUI
 - f8x：红/蓝队环境自动化部署工具 https://github.com/ffffffff0x/f8x
 - mate-translate：一个翻译神器 https://gikken.co/mate-translate
+- cloudreve：私有云盘部署 https://github.com/cloudreve/Cloudreve
 
 ## 先mark待测试项目
 
