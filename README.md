@@ -439,6 +439,7 @@
 
 - 密码猜解：猜测目标可能使用的密码 https://www.hacked.com.cn/pass.html
 - Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
+- HackBrowserData：浏览器数据导出工具 https://github.com/moonD4rk/HackBrowserData
 
 ### 开源蜜罐
 
@@ -467,6 +468,7 @@
 
 - aliyun-accesskey-Tools：阿里云accesskey利用工具 https://github.com/mrknow001/aliyun-accesskey-Tools
 - cosbrowser：腾讯云COS客户端 https://github.com/TencentCloud/cosbrowser
+- 行云管家：云存储图形化管理平台 https://yun.cloudbility.com/
 
 ### 大数据
 
