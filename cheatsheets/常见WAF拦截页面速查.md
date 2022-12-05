@@ -40,49 +40,49 @@
 
 ### 阿里云-阿里云盾
 
-![image-20220712090631804](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120906874.png)
+![image-20220712090631804](./images/202207120906874.png)
 
-![image-20220711152534189](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111525260.png)
+![image-20220711152534189](./images/202207111525260.png)
 
 ### 腾讯云-腾讯T-Sec Web 应用防火墙
 
-![image-20220711172248958](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111722040.png)
+![image-20220711172248958](./images/202207111722040.png)
 
 ### 华为云-华为Web应用防火墙 WAF 
 
-![image-20220711153124083](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111531147.png)
+![image-20220711153124083](./images/202207111531147.png)
 
 ### 安恒云-Web应用防火墙（玄武盾）平台
 
-![image-20220711162449027](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111726491.png)
+![image-20220711162449027](./images/202207111726491.png)
 
 ### 安全狗云御WEB应用防护系统
 
-![image-20220712093802214](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120938282.png)
+![image-20220712093802214](./images/202207120938282.png)
 
 ### 知道创宇-创宇盾Web应用防火墙
 
-![image-20220712095757108](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120957150.png)
+![image-20220712095757108](./images/202207120957150.png)
 
 
 
-![image-20220711173014186](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111730814.png)
+![image-20220711173014186](./images/202207111730814.png)
 
 ### F5 分布式云 WAF
 
-![image-20220712091727673](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120917731.png)
+![image-20220712091727673](./images/202207120917731.png)
 
 ### 奇安信网站卫士
 
-![image-20220711170558658](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111705719.png)
+![image-20220711170558658](./images/202207111705719.png)
 
 ### 360磐云
 
-![image-20220711173121692](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111731745.png)
+![image-20220711173121692](./images/202207111731745.png)
 
 ### 网宿Web应用防火墙
 
-![image-20220711172929266](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111729357.png)
+![image-20220711172929266](./images/202207111729357.png)
 
 瑞数信息-动态Web应用防火墙（River Safeplus）
 
@@ -115,11 +115,11 @@
 
 ### 安恒信息-明御Web应用防火墙
 
-![image-20220711162449027](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207111625134.png)
+![image-20220711162449027](./images/202207111625134.png)
 
 ### 长亭科技-雷池（SafeLine） 下一代 Web 应用防火墙
 
-![image-20220712092500572](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120925627.png)
+![image-20220712092500572](./images/202207120925627.png)
 
 绿盟科技-绿盟Web应用防护系统
 
@@ -146,4 +146,4 @@
 
 ### 网防G01
 
-![image-20220712095607837](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207120956894.png)
+![image-20220712095607837](./images/202207120956894.png)

@@ -29,11 +29,11 @@ b.com
 
 在`b.com`中添加两个A记录：
 
-![image-20220509150850946](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205091508042.png)
+![image-20220509150850946](./images/202205091508042.png)
 
 修改`a.com`的NS记录为：
 
-![image-20220509151352683](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205091513716.png)
+![image-20220509151352683](./images/202205091513716.png)
 
 ### 项目部署
 
@@ -61,4 +61,4 @@ Domain = a.com
 
 ### 使用测试
 
-![image-20220509152556402](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205091525438.png)
+![image-20220509152556402](./images/202205091525438.png)

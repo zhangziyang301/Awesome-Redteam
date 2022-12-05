@@ -93,7 +93,7 @@ Webshell代码：
 - 明文传输。
 - npc是php一句话木马的password。
 
-![img](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202211091032518.png)
+![img](./images/202211091032518.png)
 
 ### Antsword 蚁剑
 
@@ -125,7 +125,7 @@ if(cls!=null){
 - 明文传输。
 - ant是jsp一句话木马的password。
 
-![img](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202211091034381.png)
+![img](./images/202211091034381.png)
 
 ### Behinder 冰蝎2
 
@@ -181,7 +181,7 @@ AES加密，参考工具：https://oktools.net/aes
 - Response响应包的content length为16的字符串为key，例如`93edbafac50eb64c`。
 - 模式：CBC，填充：Pkcs7。
 
-![img](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202211091042813.png)
+![img](./images/202211091042813.png)
 
 流量AES加解密示例：
 
@@ -243,7 +243,7 @@ session_start();
 
 - 数据包中都是base64编码，WAF无法防御。
 
-![img](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202211091045328.png)
+![img](./images/202211091045328.png)
 
 ### Godzilla 哥斯拉
 
@@ -311,4 +311,4 @@ echo substr(md5($pass.$key),16);
 
 - 每一个响应流量最后都带有`6c37ac826a2a04bc`。
 
-![img](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202211091046532.png)
+![img](./images/202211091046532.png)
