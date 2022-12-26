@@ -100,6 +100,7 @@
 - ShellcodeWrapper：[Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/ShellcodeWrapper) 
 - AntivirusScanner：杀软进程检测脚本 [Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/AntivirusScanner) 
 - runtime-exec-payloads.html：java.lang.Runtime.exec() Payloads生成 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/runtime-exec-payloads.html) 
+- Ascii2Char：ASCII码和字符互相转换脚本 修改webshell文件名密码 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/Ascii2Char.py) 
 
 ### 攻防知识-Tips
 
@@ -271,6 +272,7 @@
 ### 信息泄露
 
 - GitHack：.git泄露利用脚本 https://github.com/lijiejie/GitHack
+- dvcs-ripper：.svn、.hg、.cvs泄露利用脚本 https://github.com/kost/dvcs-ripper
 - ds_store_exp：.DS_Store 文件泄漏利用脚本 https://github.com/lijiejie/ds_store_exp
 - Hawkeye：GitHub 泄露监控系统 https://github.com/0xbug/Hawkeye 
 
