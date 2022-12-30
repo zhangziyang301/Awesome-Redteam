@@ -18,7 +18,7 @@
     - [服务搭建-Docs](#服务搭建-docs)
   - [开源导航](#开源导航)
     - [编解码/加解密综合](#编解码加解密综合)
-    - [常见编解码/加解密](#常见编解码/加解密)
+    - [常见编解码/加解密](#常见编解码加解密)
     - [实用工具](#实用工具)
     - [威胁情报](#威胁情报)
     - [网络空间搜索](#网络空间搜索)
@@ -34,42 +34,36 @@
       - [TLS证书信息查询](#tls证书信息查询)
       - [IP地址段收集](#ip地址段收集)
     - [指纹识别](#指纹识别)
-    - [WAF识别](#waf识别)
     - [扫描/爆破](#扫描爆破)
-    - [爆破字典](#爆破字典)
+      - [扫描/爆破工具](#扫描爆破工具)
+      - [扫描/爆破字典](#扫描爆破字典)
     - [信息泄露](#信息泄露)
-    - [电子邮箱](#电子邮箱)
-    - [综合信息收集](#综合信息收集)
-    - [内网信息收集](#内网信息收集)
-  - [漏洞研究](#漏洞研究)
-    - [SRC](#src)
-    - [开源文库](#开源文库)
-    - [靶机平台](#靶机平台)
-  - [漏洞利用](#漏洞利用)
-    - [综合POC](#综合poc)
+    - [社会工程学](#社会工程学)
     - [综合工具](#综合工具)
-    - [辅助工具](#辅助工具)
+  - [漏洞研究](#漏洞研究)
+    - [开源资源](#开源资源)
+    - [靶机平台](#靶机平台)
+  - [漏洞利用工具](#漏洞利用工具)
+    - [综合利用](#综合利用)
+      - [POC](#poc)
+      - [集成工具](#集成工具)
+      - [辅助工具](#辅助工具)
     - [操作系统](#操作系统)
     - [中间件](#中间件)
-    - [CMS](#cms)
-    - [OA](#oa)
-    - [Bypass](#bypass)
-  - [内网渗透](#内网渗透)
-    - [Payloads](#payloads)
-    - [WebShell](#webshell)
-    - [Bypass](#bypass-1)
-    - [免杀](#免杀)
+    - [CMS / OA](#cms--oa)
+    - [Payload / Bypass](#payload--bypass)
+  - [内网渗透工具](#内网渗透工具)
+    - [权限维持](#权限维持)
+    - [免杀项目](#免杀项目)
     - [内网穿透](#内网穿透)
-    - [密码获取](#密码获取)
+    - [密码提取](#密码提取)
+    - [其他](#其他-1)
+  - [其他技术及工具](#其他技术及工具)
+    - [逆向分析](#逆向分析)
+    - [大数据 / 云存储](#大数据--云存储)
     - [开源蜜罐](#开源蜜罐)
     - [容器安全](#容器安全)
-    - [其他](#其他-1)
-  - [新一代信息技术](#新一代信息技术)
-    - [移动端/物联网](#移动端物联网)
-    - [云服务](#云服务)
-    - [大数据](#大数据)
-    - [逆向分析](#逆向分析)
-  - [工具赋能](#工具赋能)
+  - [必备工具](#必备工具)
     - [Metasploit](#metasploit)
     - [Yakit](#yakit)
     - [Cobaltstrike](#cobaltstrike)
@@ -80,6 +74,7 @@
   - [使用姿势](#使用姿势)
     - [如何在Windows上使用alias](#如何在windows上使用alias)
     - [如何使用浏览器快速查看markdown文档](#如何使用浏览器快速查看markdown文档)
+
 
 ## 项目导航
 
@@ -229,7 +224,7 @@
 
 - Censys：https://censys.io
 - Certificate Search：https://crt.sh
-- 证书透明度监控：https://developers.facebook.com/tools/ct"
+- 证书透明度监控：https://developers.facebook.com/tools/ct
 
 #### IP地址段收集
 
@@ -245,11 +240,11 @@
 - 御剑web指纹识别程序：https://www.webshell.cc/4697.html
 - 云悉指纹识别：http://www.yunsee.cn/
 
-### WAF识别
-
 - identYwaf：WAF识别工具 https://github.com/stamparm/identYwaf
 
 ### 扫描/爆破
+
+#### 扫描/爆破工具
 
 - dirsearch：目录扫描/爆破 https://github.com/maurosoria/dirsearch
 - dirmap：目录扫描/爆破 https://github.com/H4ckForJob/dirmap
@@ -259,7 +254,7 @@
 - Hydra：弱密码爆破 https://github.com/vanhauser-thc/thc-hydra
 - John the Ripper：https://github.com/openwall/john
 
-### 爆破字典
+#### 扫描/爆破字典
 
 - Dictionary-Of-Pentesting：渗透测试、SRC漏洞挖掘、爆破、Fuzzing等常用字典 https://github.com/insightglacier/Dictionary-Of-Pentesting
 - fuzzDicts：Web渗透Fuzz字典 https://github.com/TheKingOfDuck/fuzzDicts
@@ -276,22 +271,21 @@
 - ds_store_exp：.DS_Store 文件泄漏利用脚本 https://github.com/lijiejie/ds_store_exp
 - Hawkeye：GitHub 泄露监控系统 https://github.com/0xbug/Hawkeye 
 
-### 电子邮箱
+### 社会工程学
 
 - Hunter：Chrome插件 查找网页暴露邮箱 https://hunter.io/chrome
 - Skymem：邮箱地址搜索 https://www.skymem.info/
 - 搜邮箱：邮箱域名搜索 https://souyouxiang.com/find-contact/
 - gophish：钓鱼邮件 https://github.com/gophish/gophish
 
-### 综合信息收集
+### 综合工具
 
 - AlliN：https://github.com/P1-Team/AlliN
 - Kunyu：https://github.com/knownsec/Kunyu
 - OneForAll：https://github.com/shmilylty/OneForAll
 - ShuiZe：https://github.com/0x727/ShuiZe_0x727
 - Fofa Viewer：https://github.com/wgpsec/fofa_viewer
-
-### 内网信息收集
+- Fofa GUI：https://github.com/bewhale/FOFA_GUI
 
 - fscan：内网综合扫描工具 https://github.com/shadow1ng/fscan
 - hping3：端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping
@@ -302,12 +296,9 @@
 
 ## 漏洞研究
 
-### SRC
+### 开源资源
 
 - HackerOne：https://www.hackerone.com/
-
-### 开源文库
-
 - cve：收录了几乎所有公开的CVE https://github.com/trickest/cve
 - Vulhub：基于Docker的漏洞复现环境 https://vulhub.org/
 - PeiQi：面向网络安全从业者的知识文库 http://wiki.peiqi.tech/
@@ -327,9 +318,11 @@
 - Vulstudy：docker快速搭建共17个漏洞靶场 https://github.com/c0ny1/vulstudy
 - Vulfocus：漏洞集成平台 https://github.com/fofapro/vulfocus
 
-## 漏洞利用
+## 漏洞利用工具
 
-### 综合POC
+### 综合利用
+
+#### POC
 
 - Exploit Database：https://www.exploit-db.com/
 - POChouse：https://github.com/DawnFlame/POChouse
@@ -339,19 +332,19 @@
 - PoC-in-GitHub：https://github.com/nomi-sec/PoC-in-GitHub
 - 0day：https://github.com/helloexp/0day
 
-### 综合工具
+#### 集成工具
 
 - Xray：安全评估工具 https://github.com/chaitin/xray
 - Vulmap：漏洞扫描和验证工具 https://github.com/zhzyker/vulmap
 - Artillery：插件化 JAVA 漏洞扫描器 https://github.com/Weik1/Artillery
 - Aazhen-v3.1：JavaFX图形化漏洞扫描工具 https://github.com/zangcc/Aazhen-v3.1
 
-### 辅助工具
+#### 辅助工具
 
 - ysoserial：Java反序列化 https://github.com/frohoff/ysoserial
-- Ceye DNS：在线平台 http://ceye.io/
-- Dnslog：在线平台 http://dnslog.cn/
-- Fuzz.Red：在线平台 https://github.com/AlphabugX/Alphalog
+- Ceye DNS：在线平台 Dnslog http://ceye.io/
+- Dnslog：在线平台 Dnslog http://dnslog.cn/
+- Fuzz.Red：在线平台 Dnslog https://github.com/AlphabugX/Alphalog
 - DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO
 - JNDI-Injection-Exploit：https://github.com/welk1n/JNDI-Injection-Exploit
 - JNDIExploit：功能更强 冰蝎内存马 https://github.com/WhiteHSBG/JNDIExploit
@@ -360,6 +353,8 @@
 
 - Windows-Exploit-Suggester：https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 - Linux_Exploit_Suggester：https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
+- windows-kernel-exploits：提权漏洞集合 https://github.com/SecWiki/windows-kernel-exploits
+- Windows Elevation：https://github.com/Al1ex/WindowsElevation
 
 ### 中间件
 
@@ -376,28 +371,26 @@
 - weblogic-framework：https://github.com/sv3nbeast/weblogic-framework
 - SpringBootVulExploit：https://github.com/LandGrey/SpringBootVulExploit
 
-### CMS
+### CMS / OA
 
 - CMS-Hunter：CMS漏洞测试用例集合 https://github.com/SecWiki/CMS-Hunter
 - 若依CMS https://github.com/thelostworldFree/Ruoyi-All
 
-### OA
+- MYExploit：https://github.com/achuna33/MYExploit
 
-- OA综合 https://github.com/achuna33/MYExploit
-
-### Bypass
-
-- CVE-2021-44228-PoC-log4j-bypass-words：https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words
-
-## 内网渗透
-
-### Payloads
+### Payload / Bypass
 
 - PayloadsAllTheThings：https://github.com/swisskyrepo/PayloadsAllTheThings
 - java.lang.Runtime.exec() Payload：java Payload在线生成 https://www.bugku.net/runtime-exec-payloads/
 - PHP Generic Gadget Chains：PHP反序列化Payload https://github.com/ambionics/phpggc
+- PHPFuck：https://github.com/splitline/PHPFuck
+- JSFuck：http://www.jsfuck.com/
+- Gopherus：生成gopher链接 https://github.com/tarunkant/Gopherus
+- CVE-2021-44228-PoC-log4j-bypass-words：https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words
 
-### WebShell
+## 内网渗透工具
+
+### 权限维持
 
 - Webshell收集项目：https://github.com/tennc/webshell
 - TomcatMemShell：Tomcat内存马 https://github.com/ce-automne/TomcatMemShell
@@ -409,13 +402,7 @@
 - Godzilla 哥斯拉：https://github.com/BeichenDream/Godzilla
 - Skyscorpion：https://github.com/shack2/skyscorpion
 
-### Bypass
-
-- PHPFuck：https://github.com/splitline/PHPFuck
-- JSFuck：http://www.jsfuck.com/
-- Gopherus：生成gopher链接 https://github.com/tarunkant/Gopherus
-
-### 免杀
+### 免杀项目
 
 - bypassAV：免杀shellcode加载器 过火绒不过360 https://github.com/pureqh/bypassAV
 - GolangBypassAV：https://github.com/safe6Sec/GolangBypassAV
@@ -437,11 +424,41 @@
 - dnscat2：dns隧道 https://github.com/iagox86/dnscat2
 - icmpsh：icmp隧道 https://github.com/bdamele/icmpsh
 
-### 密码获取
+### 密码提取
 
 - 密码猜解：猜测目标可能使用的密码 https://www.hacked.com.cn/pass.html
 - Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
 - HackBrowserData：浏览器数据导出工具 https://github.com/moonD4rk/HackBrowserData
+
+### 其他
+
+- Impacket：其中的psexec.py通过用户名和密码远程连接到目标服务器 https://github.com/SecureAuthCorp/impacket
+- PsTools：PsExec.exe功能同Impacket中的psexec.py https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
+
+## 其他技术及工具
+
+### 逆向分析
+
+- 逆向分析工具集：https://pythonarsenal.com/
+- PEiD：查壳工具 https://www.aldeid.com/wiki/PEiD
+- Py2exe：Python打包工具 https://www.py2exe.org/
+- PyInstaller：Python打包工具 https://github.com/pyinstaller/pyinstaller
+- CrackMinApp：反编译微信小程序 https://github.com/Cherrison/CrackMinApp  
+- AppInfoScanner：移动端信息收集 https://github.com/kelvinBen/AppInfoScanner
+- wxappUnpacker：小程序解包 https://github.com/xuedingmiaojun/wxappUnpacker
+- IoT-vulhub： IoT 版固件漏洞复现环境 https://github.com/firmianay/IoT-vulhub
+- Apktool：Android apk逆向 https://github.com/iBotPeaches/Apktool
+
+### 大数据 / 云存储
+
+- AWSGoat：https://github.com/ine-labs/AWSGoat
+- TerraformGoat：https://github.com/HuoCorp/TerraformGoat
+- ATT&CK Cloud矩阵：https://attack.mitre.org/matrices/enterprise/cloud/
+- aliyun-accesskey-Tools：阿里云accesskey利用工具 https://github.com/mrknow001/aliyun-accesskey-Tools
+- cosbrowser：腾讯云COS客户端 https://github.com/TencentCloud/cosbrowser
+- 行云管家：云存储图形化管理平台 https://yun.cloudbility.com/
+
+- DruidCrack：Druid密文解密工具 https://github.com/rabbitmask/DruidCrack
 
 ### 开源蜜罐
 
@@ -452,44 +469,7 @@
 - CDK：容器渗透 https://github.com/cdk-team/CDK
 - veinmind-tools：容器安全工具集 https://github.com/chaitin/veinmind-tools
 
-### 其他
-
-- Impacket：其中的psexec.py通过用户名和密码远程连接到目标服务器 https://github.com/SecureAuthCorp/impacket
-- PsTools：PsExec.exe功能同Impacket中的psexec.py https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
-
-## 新一代信息技术
-
-### 移动端/物联网
-
-- CrackMinApp：反编译微信小程序 https://github.com/Cherrison/CrackMinApp  
-- AppInfoScanner：移动端信息收集 https://github.com/kelvinBen/AppInfoScanner
-- wxappUnpacker：小程序解包 https://github.com/xuedingmiaojun/wxappUnpacker
-- IoT-vulhub： IoT 版固件漏洞复现环境 https://github.com/firmianay/IoT-vulhub
-
-### 云服务
-
-- aliyun-accesskey-Tools：阿里云accesskey利用工具 https://github.com/mrknow001/aliyun-accesskey-Tools
-- cosbrowser：腾讯云COS客户端 https://github.com/TencentCloud/cosbrowser
-- 行云管家：云存储图形化管理平台 https://yun.cloudbility.com/
-
-### 大数据
-
-- DruidCrack：Druid密文解密工具 https://github.com/rabbitmask/DruidCrack
-
-### 逆向分析
-
-- 逆向分析工具集：https://pythonarsenal.com/
-- PEiD：查壳工具 https://www.aldeid.com/wiki/PEiD
-- Py2exe：Python打包工具 https://www.py2exe.org/
-- PyInstaller：Python打包工具 https://github.com/pyinstaller/pyinstaller
-
-## 云上攻防
-
-- AWSGoat：https://github.com/ine-labs/AWSGoat
-- TerraformGoat：https://github.com/HuoCorp/TerraformGoat
-- ATT&CK Cloud矩阵：https://attack.mitre.org/matrices/enterprise/cloud/
-
-## 工具赋能
+## 必备工具
 
 ### Metasploit
 
@@ -538,7 +518,21 @@
 
 - ThunderSearch：支持Fofa、Zoomeye、360Quake的GUI界面的信息搜集工具 https://github.com/xzajyjs/ThunderSearch
 
-  
+- Heimdallr：被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗 https://github.com/graynjo/Heimdallr
+
+- OA-EXPTOOL：OA综合利用工具 https://github.com/LittleBear4/OA-EXPTOOL
+
+- FastjsonScan：Fastjson扫描器，可识别版本、依赖库、autoType状态等 https://github.com/a1phaboy/FastjsonScan
+
+- VcenterKiller：针对Vcenter的综合利用工具 https://github.com/Schira4396/VcenterKiller
+
+- SharpHostInfo：快速探测内网主机信息工具 https://github.com/shmilylty/SharpHostInfo
+
+- Platypus：反弹shell管理工具 https://github.com/WangYihang/Platypus
+
+- Weakpass：弱密码生成工具 https://github.com/zzzteph/weakpass
+
+- anew：文件合并去重 https://github.com/tomnomnom/anew
 
 ## 使用姿势
 
