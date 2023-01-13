@@ -335,6 +335,7 @@
 #### 集成工具
 
 - Xray：安全评估工具 https://github.com/chaitin/xray
+- Super Xray：Xray GUI启动器 https://github.com/4ra1n/super-xray
 - Vulmap：漏洞扫描和验证工具 https://github.com/zhzyker/vulmap
 - Artillery：插件化 JAVA 漏洞扫描器 https://github.com/Weik1/Artillery
 - Aazhen-v3.1：JavaFX图形化漏洞扫描工具 https://github.com/zangcc/Aazhen-v3.1
@@ -429,6 +430,7 @@
 - 密码猜解：猜测目标可能使用的密码 https://www.hacked.com.cn/pass.html
 - Responder：实现获取NTLM Hash等功能 https://github.com/SpiderLabs/Responder
 - HackBrowserData：浏览器数据导出工具 https://github.com/moonD4rk/HackBrowserData
+- Sunflower_get_Password：针对向日葵的识别码和验证码提取工具 https://github.com/wafinfo/Sunflower_get_Password
 
 ### 其他
 
