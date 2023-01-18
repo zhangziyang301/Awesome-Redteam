@@ -50,6 +50,7 @@
       - [辅助工具](#辅助工具)
     - [操作系统](#操作系统)
     - [中间件](#中间件)
+    - [应用服务器](#应用服务器)
     - [CMS / OA](#cms--oa)
     - [Payload / Bypass](#payload--bypass)
   - [内网渗透工具](#内网渗透工具)
@@ -96,6 +97,7 @@
 - AntivirusScanner：杀软进程检测脚本 [Click Here](https://github.com/Threekiii/Awesome-Redteam/tree/master/scripts/AntivirusScanner) 
 - runtime-exec-payloads.html：java.lang.Runtime.exec() Payloads生成 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/runtime-exec-payloads.html) 
 - Ascii2Char：ASCII码和字符互相转换脚本 修改webshell文件名密码 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/Ascii2Char.py) 
+- Weakpass_Generator：在线弱密码生成工具 汉化版 [Click Here](https://github.com/Threekiii/Awesome-Redteam/blob/master/scripts/Weakpass_Generator) 
 
 ### 攻防知识-Tips
 
@@ -263,6 +265,7 @@
 - fuzz：https://github.com/Bo0oM/fuzz.txt
 - SuperWordlist：弱口令字典 https://github.com/fuzz-security/SuperWordlist
 - top25-parameter：top25参数字典 https://github.com/lutfumertceylan/top25-parameter
+- Weakpass：在线弱密码生成工具 https://github.com/zzzteph/weakpass
 
 ### 信息泄露
 
@@ -372,6 +375,10 @@
 - weblogic-framework：https://github.com/sv3nbeast/weblogic-framework
 - SpringBootVulExploit：https://github.com/LandGrey/SpringBootVulExploit
 
+### 应用服务器
+
+- VcenterKiller：针对Vcenter的综合利用工具 https://github.com/Schira4396/VcenterKiller
+
 ### CMS / OA
 
 - CMS-Hunter：CMS漏洞测试用例集合 https://github.com/SecWiki/CMS-Hunter
@@ -473,6 +480,14 @@
 
 ## 必备工具
 
+### 命令行
+
+- oh my zsh：命令行工具集 好用 推荐 https://github.com/ohmyzsh/ohmyzsh
+- Platypus：反弹shell管理工具 好用 推荐 https://github.com/WangYihang/Platypus
+- tabby：高度可配置终端 https://github.com/Eugeny/tabby
+- anew：命令行工具 文件合并去重 https://github.com/tomnomnom/anew
+- The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
+
 ### Metasploit
 
 - Metasploit：https://github.com/rapid7/metasploit-framework
@@ -504,11 +519,10 @@
 - FindSomething：在网页的源代码或js中寻找有用信息 https://github.com/ResidualLaugh/FindSomething
 - Disable JavaScript：禁用JavaScript绕过弹窗 https://github.com/dpacassi/disable-javascript
 - Hack Bar：渗透神器No.1 https://github.com/0140454/hackbar
+- Heimdallr：被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗 https://github.com/graynjo/Heimdallr
 
 ## 其他优秀项目
 
-- oh my zsh：命令行工具集 好用 推荐 https://github.com/ohmyzsh/ohmyzsh
-- The art of command line：快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
 - PySimpleGUI：https://github.com/PySimpleGUI/PySimpleGUI
 - f8x：红/蓝队环境自动化部署工具 https://github.com/ffffffff0x/f8x
 - mate-translate：一个翻译神器 https://gikken.co/mate-translate
@@ -517,24 +531,10 @@
 ## 先mark待测试项目
 
 - AsamF：集成多个网络资产测绘平台的一站式企业信息资产收集工具 https://github.com/Kento-Sec/AsamF
-
-- ThunderSearch：支持Fofa、Zoomeye、360Quake的GUI界面的信息搜集工具 https://github.com/xzajyjs/ThunderSearch
-
-- Heimdallr：被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗 https://github.com/graynjo/Heimdallr
-
-- OA-EXPTOOL：OA综合利用工具 https://github.com/LittleBear4/OA-EXPTOOL
-
 - FastjsonScan：Fastjson扫描器，可识别版本、依赖库、autoType状态等 https://github.com/a1phaboy/FastjsonScan
-
-- VcenterKiller：针对Vcenter的综合利用工具 https://github.com/Schira4396/VcenterKiller
-
+- OA-EXPTOOL：OA综合利用工具 https://github.com/LittleBear4/OA-EXPTOOL
 - SharpHostInfo：快速探测内网主机信息工具 https://github.com/shmilylty/SharpHostInfo
-
-- Platypus：反弹shell管理工具 https://github.com/WangYihang/Platypus
-
-- Weakpass：弱密码生成工具 https://github.com/zzzteph/weakpass
-
-- anew：文件合并去重 https://github.com/tomnomnom/anew
+- ThunderSearch：支持Fofa、Zoomeye、360Quake的GUI界面的信息搜集工具 https://github.com/xzajyjs/ThunderSearch
 
 ## 使用姿势
 
