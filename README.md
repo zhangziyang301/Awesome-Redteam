@@ -269,7 +269,8 @@
 
 ### 信息泄露
 
-- GitHack：.git泄露利用脚本 https://github.com/lijiejie/GitHack
+- GitHack：.git泄露利用脚本 https://github.com/lijiejie/GitHack python3 有时无法恢复.git目录，推荐python2版本
+- GitHack：.git泄露利用脚本https://github.com/BugScanTeam/GitHack python2
 - dvcs-ripper：.svn、.hg、.cvs泄露利用脚本 https://github.com/kost/dvcs-ripper
 - ds_store_exp：.DS_Store 文件泄漏利用脚本 https://github.com/lijiejie/ds_store_exp
 - Hawkeye：GitHub 泄露监控系统 https://github.com/0xbug/Hawkeye 
@@ -349,6 +350,7 @@
 - Ceye DNS：在线平台 Dnslog http://ceye.io/
 - Dnslog：在线平台 Dnslog http://dnslog.cn/
 - Fuzz.Red：在线平台 Dnslog https://github.com/AlphabugX/Alphalog
+- DNS重绑定：https://lock.cmpxchg8b.com/rebinder.html
 - DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO
 - JNDI-Injection-Exploit：https://github.com/welk1n/JNDI-Injection-Exploit
 - JNDIExploit：功能更强 冰蝎内存马 https://github.com/WhiteHSBG/JNDIExploit
@@ -393,7 +395,7 @@
 - PHP Generic Gadget Chains：PHP反序列化Payload https://github.com/ambionics/phpggc
 - PHPFuck：https://github.com/splitline/PHPFuck
 - JSFuck：http://www.jsfuck.com/
-- Gopherus：生成gopher链接 https://github.com/tarunkant/Gopherus
+- Gopherus：SSRF 生成gopher链接 https://github.com/tarunkant/Gopherus python2
 - CVE-2021-44228-PoC-log4j-bypass-words：https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words
 
 ## 内网渗透工具
@@ -530,6 +532,8 @@
 
 ## 先mark待测试项目
 
+- JNDInjector：高度可定制化的JNDI和Java反序列化利用工具 https://github.com/rebeyond/JNDInjector
+- 
 - AsamF：集成多个网络资产测绘平台的一站式企业信息资产收集工具 https://github.com/Kento-Sec/AsamF
 - FastjsonScan：Fastjson扫描器，可识别版本、依赖库、autoType状态等 https://github.com/a1phaboy/FastjsonScan
 - OA-EXPTOOL：OA综合利用工具 https://github.com/LittleBear4/OA-EXPTOOL

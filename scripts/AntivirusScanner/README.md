@@ -7,4 +7,4 @@
 
 ## 0x02 运行结果
 
-![image-20220531191024577](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205311910633.png)
+![image-20220531191024577](images/202205311910633.png)
