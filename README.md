@@ -49,8 +49,12 @@
       - [集成工具](#集成工具)
       - [辅助工具](#辅助工具)
     - [操作系统](#操作系统)
-    - [中间件](#中间件)
-    - [应用服务器](#应用服务器)
+    - [Shiro](#shiro)
+    - [Struts](#struts)
+    - [Springboot](#springboot)
+    - [Thinkphp](#thinkphp)
+    - [Weblogic](#weblogic)
+    - [Vcenter](#vcenter)
     - [CMS / OA](#cms--oa)
     - [Payload / Bypass](#payload--bypass)
   - [内网渗透工具](#内网渗透工具)
@@ -65,6 +69,7 @@
     - [开源蜜罐](#开源蜜罐)
     - [容器安全](#容器安全)
   - [必备工具](#必备工具)
+    - [命令行](#命令行)
     - [Metasploit](#metasploit)
     - [Yakit](#yakit)
     - [Cobaltstrike](#cobaltstrike)
@@ -248,6 +253,8 @@
 
 #### 扫描/爆破工具
 
+- jwt_tool：JSON Web Token Toolkit https://github.com/ticarpi/jwt_tool
+- c-jwt-cracker：JSON Web Token Cracker https://github.com/brendan-rius/c-jwt-cracker
 - dirsearch：目录扫描/爆破 https://github.com/maurosoria/dirsearch
 - dirmap：目录扫描/爆破 https://github.com/H4ckForJob/dirmap
 - Arjun：HTTP参数扫描器 https://github.com/s0md3v/Arjun
@@ -281,6 +288,7 @@
 - Skymem：邮箱地址搜索 https://www.skymem.info/
 - 搜邮箱：邮箱域名搜索 https://souyouxiang.com/find-contact/
 - gophish：钓鱼邮件 https://github.com/gophish/gophish
+- SpoofWeb：一键部署HTTPS钓鱼网站 https://github.com/5icorgi/SpoofWeb
 
 ### 综合工具
 
@@ -354,6 +362,7 @@
 - DNSLog-GO：自建私有平台 https://github.com/lanyi1998/DNSlog-GO
 - JNDI-Injection-Exploit：https://github.com/welk1n/JNDI-Injection-Exploit
 - JNDIExploit：功能更强 冰蝎内存马 https://github.com/WhiteHSBG/JNDIExploit
+- wscat：Websocket测试工具 https://github.com/websockets/wscat
 
 ### 操作系统
 
@@ -362,22 +371,36 @@
 - windows-kernel-exploits：提权漏洞集合 https://github.com/SecWiki/windows-kernel-exploits
 - Windows Elevation：https://github.com/Al1ex/WindowsElevation
 
-### 中间件
+### Shiro
 
 - shiro_attack：https://github.com/j1anFen/shiro_attack
 - shiro_rce_tool：https://github.com/wyzxxz/shiro_rce_tool
 - ShiroExploit：https://github.com/feihong-cs/ShiroExploit-Deprecated
 - ShiroExp：https://github.com/safe6Sec/ShiroExp
 - shiro_key：shiro key 收集 目前 1k+ https://github.com/yanm1e/shiro_key
+
+### Struts
+
 - Struts2VulsTools：https://github.com/shack2/Struts2VulsTools
+
+### Springboot
+
+- SpringBoot-Scan：https://github.com/AabyssZG/SpringBoot-Scan
+- SpringBoot-Scan-GUI：SpringBoot-Scan的GUI图形化版本 https://github.com/13exp/SpringBoot-Scan-GUI
+- SpringBootVulExploit：https://github.com/LandGrey/SpringBootVulExploit
+
+### Thinkphp
+
 - ThinkphpGUI：https://github.com/Lotus6/ThinkphpGUI
 - thinkphp_gui_tools：https://github.com/bewhale/thinkphp_gui_tools
+
+### Weblogic
+
 - WeblogicScan：https://github.com/dr0op/WeblogicScan
 - weblogicScanner：https://github.com/0xn0ne/weblogicScanner
 - weblogic-framework：https://github.com/sv3nbeast/weblogic-framework
-- SpringBootVulExploit：https://github.com/LandGrey/SpringBootVulExploit
 
-### 应用服务器
+### Vcenter
 
 - VcenterKiller：针对Vcenter的综合利用工具 https://github.com/Schira4396/VcenterKiller
 
@@ -405,6 +428,7 @@
 - Webshell收集项目：https://github.com/tennc/webshell
 - TomcatMemShell：Tomcat内存马 https://github.com/ce-automne/TomcatMemShell
 - wsMemShell：WebSocket 内存马 https://github.com/veo/wsMemShell
+- RMI_Inj_MemShell：LDAP无效时的RMI内存马 配合wscat使用 https://github.com/novysodope/RMI_Inj_MemShell
 - Behinder 冰蝎：https://github.com/rebeyond/Behinder
   - Behinder4已经发布
   - Behinder3：`kali + java 11.0.14` 或 `windows10 + java 1.8.0_91`，注意，该环境下Behinder2无法正常运行，Behinder3代理经测试php无法成功穿透，jsp可以成功穿透
