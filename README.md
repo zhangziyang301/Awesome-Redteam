@@ -181,11 +181,12 @@
 ### 公开知识库
 
 - 棱角社区工具集整理：https://forum.ywhack.com/bountytips.php?tools
-- 零组文库：零组已停运，非官方 https://0-wiki.com/
+- ffffffff0x 团队安全知识框架：https://github.com/ffffffff0x/1earn
 - 先知社区：https://xz.aliyun.com/
 - 狼组公开知识库：https://wiki.wgpsec.org/
+- 零组文库：零组已停运，非官方 https://0-wiki.com/
 - 404星链计划：知道创宇 404 实验室 https://github.com/knownsec/404StarLink
-- MITRE ATT＆CK：网络攻击中使用的已知对抗战术和技术 https://attack.mitre.org/matrices/enterprise/
+- MITRE ATT＆CK：网络攻击中使用的已知对抗战术和技术 https://attack.mitre.org/matrices/enterprise
 
 ### 其他
 
@@ -257,6 +258,7 @@
 - c-jwt-cracker：JSON Web Token Cracker https://github.com/brendan-rius/c-jwt-cracker
 - dirsearch：目录扫描/爆破 https://github.com/maurosoria/dirsearch
 - dirmap：目录扫描/爆破 https://github.com/H4ckForJob/dirmap
+- ffuf：高速web fuzz工具 https://github.com/ffuf/ffuf
 - Arjun：HTTP参数扫描器 https://github.com/s0md3v/Arjun
 - ksubdomain：子域名爆破 https://github.com/knownsec/ksubdomain
 - Gobuster：URI/DNS/WEB爆破 https://github.com/OJ/gobuster
@@ -495,6 +497,8 @@
 
 - DruidCrack：Druid密文解密工具 https://github.com/rabbitmask/DruidCrack
 
+- druid_sessions：Druid sessions利用工具 https://github.com/yuyan-sec/druid_sessions
+
 ### 开源蜜罐
 
 - HFish：一款安全、简单可信赖的跨平台蜜罐软件，允许商业和个人用户免费使用 https://github.com/hacklcx/HFish
@@ -557,7 +561,7 @@
 ## 先mark待测试项目
 
 - JNDInjector：高度可定制化的JNDI和Java反序列化利用工具 https://github.com/rebeyond/JNDInjector
-- 
+- IDOR_detect_tool：SaaS-API越权漏洞检测系统 https://github.com/y1nglamore/IDOR_detect_tool
 - AsamF：集成多个网络资产测绘平台的一站式企业信息资产收集工具 https://github.com/Kento-Sec/AsamF
 - FastjsonScan：Fastjson扫描器，可识别版本、依赖库、autoType状态等 https://github.com/a1phaboy/FastjsonScan
 - OA-EXPTOOL：OA综合利用工具 https://github.com/LittleBear4/OA-EXPTOOL
